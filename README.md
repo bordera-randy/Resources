@@ -30,3 +30,22 @@ https://docs.ansible.com/ansible/latest/collections/f5networks/f5_modules/index.
 https://clouddocs.f5.com/products/orchestration/ansible/devel/ 1633029229 F5 Ansible Collections <br>
 
 ### F5
+https://clouddocs.f5.com/products/orchestration/ansible/devel/usage/playbook_tutorial.html
+https://github.com/F5Networks/f5-ansible
+https://clouddocs.f5.com/cli/tmsh-reference/latest/
+https://clouddocs.f5.com/products/orchestration/ansible/devel/f5_bigip/connecton-httpapi.html
+
+#### Postman
+https://learning.postman.com/docs/sending-requests/variables/
+
+### Cloud Strategy
+https://www.gartner.com/document/3971128
+https://www.gartner.com/document/3994091
+https://www.gartner.com/document/3988608
+https://www.gartner.com/document/3939660
+https://www.gartner.com/document/3995777
+https://community.gartner.com/t/cloud-center-of-excellence/509646
+https://www.gartner.com/search/all?q=ccoe%20team
+https://www.gartner.com/document/3454744?ref=authbottomrec&refval=3746433
+https://www.gartner.com/document/3746433?ref=authbottomrec&refval=3906272
+https://www.gartner.com/document/3847368?ref=authbottomrec&refval=3906272
