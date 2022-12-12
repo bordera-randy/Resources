@@ -8,13 +8,13 @@
 [Azure DevOps - Connectors | Microsoft Docs](https://docs.microsoft.com/en-us/connectors/visualstudioteamservices/#update-a-work-item)   <br>
 [Conditions - Azure Pipelines | Microsoft Docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/conditions?view=azure-devops&tabs=classic)   <br>
 [Browse code samples | Microsoft Docs](https://docs.microsoft.com/en-us/samples/browse/?products=azure-logic-apps) <br>
-https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/tree/master/Instructions/Labs AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs at master · MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions · GitHub <br>
-https://github.com/MicrosoftDocs/Virtualization-Documentation Virtualization-Documentation: <br>
-https://github.com/azsk/DevOpsKit-docs GitHub - azsk/DevOpsKit-docs <br>
-https://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html  Windows PowerShell Cheat Sheet <br>
+[MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions · GitHub](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/tree/master/Instructions/Labs) <br>
+[Virtualization-Documentation](https://github.com/MicrosoftDocs/Virtualization-Documentation)  <br>
+[GitHub - azsk/DevOpsKit-docs](https://github.com/azsk/DevOpsKit-docs)  <br>
+[Windows PowerShell Cheat Sheet](https://www.theochem.ru.nl/~pwormer/teachmat/PS_cheat_sheet.html)   <br>
 
 ### Security 
-https://iasaglobal.org/  IASA 
+[IASA ](https://iasaglobal.org/)
 
 ### Ansible
 https://docs.ansible.com/ansible/latest/user_guide/intro_getting_started.html  Getting Started — Ansible Documentation <br>
