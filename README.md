@@ -1,13 +1,13 @@
 # Resources
 ### Microsoft
 [Microsoft Q&A](https://docs.microsoft.com/en-us/answers/products/)  <br>
-https://techcommunity.microsoft.com/ Microsoft Tech Community <br>
-https://developercommunity.visualstudio.com/home MS Developer Community <br>
-https://www.yammer.com/azureadvisors/#/home Yammer : Azure Connection Programs <br>
-https://github.com/microsoft/azure-pipelines-yaml Microsoft/azure-pipelines-yaml: Azure Pipelines YAML examples, templates, and community interaction <br>
-https://docs.microsoft.com/en-us/connectors/visualstudioteamservices/#update-a-work-item  Azure DevOps - Connectors | Microsoft Docs <br>
-https://docs.microsoft.com/en-us/azure/devops/pipelines/process/conditions?view=azure-devops&tabs=classic  Conditions - Azure Pipelines | Microsoft Docs <br>
-https://docs.microsoft.com/en-us/samples/browse/?products=azure-logic-apps  Browse code samples | Microsoft Docs <br>
+[Microsoft Tech Community](https://techcommunity.microsoft.com/)  <br>
+[MS Developer Community](https://developercommunity.visualstudio.com/home)  <br>
+[Yammer : Azure Connection Programs](https://www.yammer.com/azureadvisors/#/home)  <br>
+[Microsoft/azure-pipelines-yaml: Azure Pipelines YAML examples, templates, and community interaction](https://github.com/microsoft/azure-pipelines-yaml)  <br>
+[Azure DevOps - Connectors | Microsoft Docs](https://docs.microsoft.com/en-us/connectors/visualstudioteamservices/#update-a-work-item)   <br>
+[Conditions - Azure Pipelines | Microsoft Docs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/conditions?view=azure-devops&tabs=classic)   <br>
+[Browse code samples | Microsoft Docs](https://docs.microsoft.com/en-us/samples/browse/?products=azure-logic-apps) <br>
 https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/tree/master/Instructions/Labs AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/Instructions/Labs at master · MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions · GitHub <br>
 https://github.com/MicrosoftDocs/Virtualization-Documentation Virtualization-Documentation: <br>
 https://github.com/azsk/DevOpsKit-docs GitHub - azsk/DevOpsKit-docs <br>
