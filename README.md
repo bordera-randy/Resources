@@ -6,8 +6,8 @@ Welcome to the Resources Repository! This repository contains a collection of va
 
 - [Introduction](#introduction)
 - [Resources](#resources)
-    - [Category 1](#category-1)
-    - [Category 2](#category-2)
+    - [Microsoft](#microsoft)
+    - [AWS](#aws)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -17,15 +17,19 @@ This repository is designed to provide a comprehensive collection of resources t
 
 ## Resources
 
-### Category 1
+### Microsoft
 
-- [Resource 1](link-to-resource-1)
-- [Resource 2](link-to-resource-2)
+- [Microsoft Resources](Microsoft.md)
+- [Azure Fundamentals](Student%20Resources/az900.md)
+- [Azure Administrator](Student%20Resources/az104.md)
+- [Azure Security Engineer](Student%20Resources/az500.md)
+- [Azure Solutions Architect](Student%20Resources/az305.md)
+- [DevOps Engineer](Student%20Resources/az400.md)
 
-### Category 2
+### AWS
 
-- [Resource 3](link-to-resource-3)
-- [Resource 4](link-to-resource-4)
+- [AWS Resources](AWS.md)
+
 
 ## Contributing
 
@@ -38,4 +42,4 @@ We welcome contributions from the community! If you have a resource that you wou
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This repository is licensed under the MIT License. See the [LICENSE](license.md) file for more information.
