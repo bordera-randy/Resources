@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
+    - [Installing Prerequisites](#installing-Prerequisites)
 - [Azure Automation](#azure-automation)
     - [Setting up Azure CLI](#setting-up-azure-cli)
     - [Creating a Resource Group](#creating-a-resource-group)
@@ -25,6 +26,30 @@ This guide provides an overview of how to automate tasks using Azure, PowerShell
 - Azure CLI installed
 - PowerShell installed
 - Terraform installed
+
+### Installing Prerequisites
+
+#### Azure CLI
+1. Download and install Azure CLI from the [official documentation](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
+2. Verify the installation by running:
+    ```sh
+    az --version
+    ```
+
+#### PowerShell
+1. Download and install PowerShell from the [official documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell).
+2. Verify the installation by running:
+    ```powershell
+    $PSVersionTable.PSVersion
+    ```
+
+#### Terraform
+1. Download Terraform from the [official website](https://www.terraform.io/downloads.html).
+2. Install Terraform by following the instructions for your operating system.
+3. Verify the installation by running:
+    ```sh
+    terraform -v
+    ```
 
 ## Azure Automation
 
