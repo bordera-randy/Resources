@@ -1,10 +1,10 @@
 # AZ-104 Exam Resources
 
-## Table of Contents### Resource Providers
-- [AZ-104 Exam Resources](#az-104-exam-resources)- Example: `Microsoft.PolicyInsights`, `Microsoft.AzureActiveDirectory`, `Microsoft.AzureStack`, `Microsoft.Botservice`
-  - [Table of Contents](#table-of-contents)- Custom providers can be registered with a subscription
-  - [Documentation](#documentation)  - Requires the Contributor or Owner roles
-  - [Labs](#labs)  - In most cases, providers are registered automatically when you deploy resources that use the providers
+## Table of Contents
+- [AZ-104 Exam Resources](#az-104-exam-resources)
+  - [Table of Contents](#table-of-contents)
+  - [Documentation](#documentation)
+  - [Labs](#labs)
   - [Study Guides](#study-guides)
   - [Learning Modules](#learning-modules)
   - [Student Resources](#student-resources)
@@ -16,95 +16,95 @@
 ## Labs
 - [AZ-104 Labs](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/)
 
-## Study Guides- You can register, unregister, re-register through Subscription → Resource providers in Portal
+## Study Guides
 - [Exam AZ-104 Study Guide](https://learn.microsoft.com/en-us/certifications/resources/study-guides/az-104)
-- [Whizlabs AZ-104 Study Guide](https://www.whizlabs.com/blog/az-104-exam-preparation-guide/)### Resource Groups
-- Logical grouping of resources that share the same lifecycles
-## Learning Modules- Max 15 tag name/value pairs
-- [Manage Azure identities and governance](https://learn.microsoft.com/en-us/training/modules/manage-azure-identities/)
-- [Implement and manage storage](https://learn.microsoft.com/en-us/training/modules/implement-and-manage-storage/)#### Locks
-- [Deploy and manage Azure compute resources](https://learn.microsoft.com/en-us/training/modules/deploy-and-manage-azure-compute-resources/)- For accidental deletion or accidental changes to resources within a resource group
-- [Configure and manage virtual networking](https://learn.microsoft.com/en-us/training/modules/configure-and-manage-virtual-networking/)- Consists of two locks:
-- [Monitor and back up Azure resources](https://learn.microsoft.com/en-us/training/modules/monitor-and-back-up-azure-resources/)  - `CanNotDelete`
-    - Authorized users can still read and modify a resource, but they can't delete the resource
-## Student Resources  - `ReadOnly`
-- [Microsoft Learn: Student Hub](https://learn.microsoft.com/en-us/training/student-hub/)    - Authorized users can read a resource, but they can't delete or update the resource
-- [Azure for Students](https://azure.microsoft.com/en-us/free/students/)    - Same as giving everyone a Reader role
-- Locks are inherited from resources within the resource group
-## Management
-#### IAM
-### Azure Cloud Shell- Access control, RBAC
-- Browser-accessible shell for managing Azure resources- Roles are inherited
-  - Can provide Bash or PowerShell- Role assignment: Role definition role (role, e.g. Reader) + Person/Scope/Service Principal + Scope
-- In the background, it uses a dockerized version of PowerShell/bash  - Set in a scope with a name and definition
-- When you open it for the first time:
-  1. It creates a new storage account called `azcloudshell` followed by some numbers.## Scope
-  2. It then creates a file share that stores your user information.- E.g. resource group, subscription.
-- Definition: E.g. "Allow resource types"
-### Resources & Costs- Name, description, Policy (e.g. azurepolicy.rules.json), Parameters (e.g. azurepolicy.parameters.json)
+- [Whizlabs AZ-104 Study Guide](https://www.whizlabs.com/blog/az-104-exam-preparation-guide/)
 
-#### Subscriptions## Events
-- Create event subscriptions triggered by the resources group in Event Grid.
+## Learning Modules
+- [Manage Azure identities and governance](https://learn.microsoft.com/en-us/training/modules/manage-azure-identities/)
+- [Implement and manage storage](https://learn.microsoft.com/en-us/training/modules/implement-and-manage-storage/)
+- [Deploy and manage Azure compute resources](https://learn.microsoft.com/en-us/training/modules/deploy-and-manage-azure-compute-resources/)
+- [Configure and manage virtual networking](https://learn.microsoft.com/en-us/training/modules/configure-and-manage-virtual-networking/)
+- [Monitor and back up Azure resources](https://learn.microsoft.com/en-us/training/modules/monitor-and-back-up-azure-resources/)
+
+## Student Resources
+- [Microsoft Learn: Student Hub](https://learn.microsoft.com/en-us/training/student-hub/)
+- [Azure for Students](https://azure.microsoft.com/en-us/free/students/)
+
+## Management
+
+### Azure Cloud Shell
+- Browser-accessible shell for managing Azure resources
+  - Can provide Bash or PowerShell
+- In the background, it uses a dockerized version of PowerShell/bash
+- When you open it for the first time:
+  1. It creates a new storage account called `azcloudshell` followed by some numbers.
+  2. It then creates a file share that stores your user information.
+
+### Resources & Costs
+
+#### Subscriptions
+
 #### Resource Tagging
-- Always tag!## Automation Script
-- Tags are additional metadata that can be assigned to resources/resource groups.- Can be added to library to be redeployed later on.
-  - Child resources do not inherit resource group tags  - ❗ All resources cannot be redeployed
-  - Max 15 tag name/value pairs  - 💡 Must change the name to avoid duplicates.
-- Example: `CostCenter = YHZ`- ARM templates for resource groups can also be found on GitHub.
-- Why?- You can Add to library, or click on Deploy to deploy directly.
+- Always tag!
+- Tags are additional metadata that can be assigned to resources/resource groups.
+  - Child resources do not inherit resource group tags
+  - Max 15 tag name/value pairs
+- Example: `CostCenter = YHZ`
+- Why?
   - Organize
-  - Search## Alerts
+  - Search
   - View
-  - Billing & cost management### Role assignments
-- On Portal:- Delegated resource administration
-  - You can search for Tags and see filtered lists.- Roles organize related resource permissions together
-  - Resources are tagged after the resource is created as opposed to PowerShell/CLI.  - Depends on resource type
-    - E.g. different for VM and storage.
-#### Resource Tagging and Cost Center Spending Limits- Scope
-  - Roles are applied to a scope.
-#### Spending Limits  - They're inherited in the following order:
-- Applies to free trial subscriptions, MSDN, and Visual Studio subscriptions.    - Management groups
-  - If spending limit is exceeded:    - Subscription
-    1. Email message is sent    - Resource groups
-    2. Deployed resources are disabled in the next billing cycle    - Individual resources
-    3. Databases and storage accounts become read-only- Role can be assigned to:
-  - Free trials can be upgraded to Pay-as-you-go  - Users
-- Do not apply to support plans, pay-as-you-go, Enterprise Dev/Test  - Groups
-  - Contributor: Manage resources but not resource access.
+  - Billing & cost management
+- On Portal:
+  - You can search for Tags and see filtered lists.
+  - Resources are tagged after the resource is created as opposed to PowerShell/CLI.
+
+#### Resource Tagging and Cost Center Spending Limits
+
+#### Spending Limits
+- Applies to free trial subscriptions, MSDN, and Visual Studio subscriptions.
+  - If spending limit is exceeded:
+    1. Email message is sent
+    2. Deployed resources are disabled in the next billing cycle
+    3. Databases and storage accounts become read-only
+  - Free trials can be upgraded to Pay-as-you-go
+- Do not apply to support plans, pay-as-you-go, Enterprise Dev/Test
+
 #### ARM Consumption API
-- Returns usage details  - Reader: Read-only access
-- Supported only in Enterprise enrollments and Web Direct subscriptions  - Storage Blob Data Reader: Specific to storage accounts
-- Available through CLI and different SDKs.  - SQL DB Contributor: Manage, but not access, SQL databases
-- Consumption APIs:  - VM Contributor: Manage, but not access, virtual machines.
+- Returns usage details
+- Supported only in Enterprise enrollments and Web Direct subscriptions
+- Available through CLI and different SDKs.
+- Consumption APIs:
   - Enterprise customers only: Price Sheet, Budgets, Balance
   - Reserved VMs: Reservation Summaries API, Reservation Details API, Reservation Recommendations API
   - Others: Marketplace charges, usage details
 
-#### Azure Pricing Calculator#### Custom roles
-- Estimates monthly costs- ❗ Built using only PowerShell / CLI or REST API.
-- See online  - `New-AzureRmRoleDefinitation -Role $customRole`
-- Shows in the same drop-down lists with built-in roles
-#### Azure Advisor Cost Recommendations- JSON file looks like this:
-- Identifies wastage  ```json
-  - Example: idle VMs, SQL DBs  {
-    - Can configure automatic shutdown    "Name": "Network Resource Viewer",
-    - Auto-shutdown option in VM    "IsCustom": true,
-- Recommendations about:    "Description": "Allows reading Azure network resources.",
-  - High availability    "Actions": [ "Microsoft.Network/*/read" ],
-  - Security    "NotActions": [ ],
-  - Performance    "AssignableScopes": [ "/subscriptions/048.." ]
-  - Cost recommendations, e.g.:  }
-    - Virtual machine reserved instances to reduce costs  ```
+#### Azure Pricing Calculator
+- Estimates monthly costs
+- See online
+
+#### Azure Advisor Cost Recommendations
+- Identifies wastage
+  - Example: idle VMs, SQL DBs
+    - Can configure automatic shutdown
+    - Auto-shutdown option in VM
+- Recommendations about:
+  - High availability
+  - Security
+  - Performance
+  - Cost recommendations, e.g.:
+    - Virtual machine reserved instances to reduce costs
     - VM resizing: Scale up/down
-    - Remove unprovisioned ExpressRoute circuits#### Classic Administrator Roles
+    - Remove unprovisioned ExpressRoute circuits
 - Configure rule:
   - Example: Average CPU Utilization < 5%
 
-#### Subscription Blade- The account that is used to sign up for Azure is automatically set as both the Account Administrator and Service Administrator.
-- In Cost analysis, you can filter by Tags.  - Roles are properties that can be changed in Subscription blade
-- Invoices  - The Service Administrator has full access to the Azure portal.
-- Manage in Subscription blade:- Co-Administrator (200 per subscription)
-  - Manage payment methods  - The Co-Administrator has the equivalent access of a user who is assigned the Owner role at the subscription scope.
+#### Subscription Blade
+- In Cost analysis, you can filter by Tags.
+- Invoices
+- Manage in Subscription blade:
+  - Manage payment methods
     - Adding one allows you to remove subscription limits
   - Download usage details
   - Transfer/cancel subscription
@@ -113,15 +113,161 @@
 
 #### Optimizing VM Costs
 - Use VM Reserved Instances
-  - You can create one in Reservations blade## Azure AD
+  - You can create one in Reservations blade
 - Set-up auto shutdown in VMs
   - Auto-shutdown blade in VM
 
 ### Microsoft Azure Resource Providers
-- Enables Azure features### Introduction to Active Directory
-- Many are registered automatically- Characteristics
-  - Example: `Microsoft.Compute` that handles VMs, `Microsoft.Network`, `Microsoft.Sql`, `Microsoft.Storage`  - AD is cloud-based and geo-distributed
-- Some are not registered automatically  - Provides the ability to give permissions from one tenant to another for certain accounts.
+- Enables Azure features
+- Many are registered automatically
+  - Example: `Microsoft.Compute` that handles VMs, `Microsoft.Network`, `Microsoft.Sql`, `Microsoft.Storage`
+- Some are not registered automatically
+  - Example: `Microsoft.PolicyInsights`, `Microsoft.AzureActiveDirectory`, `Microsoft.AzureStack`, `Microsoft.Botservice`
+  - Custom providers can be registered with a subscription
+    - Requires the Contributor or Owner roles
+    - In most cases, providers are registered automatically when you deploy resources that use the providers
+- You can register, unregister, re-register through Subscription → Resource providers in Portal
+
+### Resource Groups
+- Logical grouping of resources that share the same lifecycles
+  - Resource group holds different unique resources
+  - Resource groups can contain resources that reside in different regions
+    - Location of resource group is just the metadata for the resource group
+
+#### Tags
+- Categorization/organization of resource groups for e.g. billing, management
+  - Example: `Dept: IT`
+- Tags are not inherited
+- Max 15 tag name/value pairs
+
+#### Locks
+- For accidental deletion or accidental changes to resources within a resource group
+- Consists of two locks:
+  - `CanNotDelete`
+    - Authorized users can still read and modify a resource, but they can't delete the resource
+  - `ReadOnly`
+    - Authorized users can read a resource, but they can't delete or update the resource
+    - Same as giving everyone a Reader role
+- Locks are inherited from resources within the resource group
+
+#### IAM
+- Access control, RBAC
+- Roles are inherited
+- Role assignment: Role definition role (role, e.g. Reader) + Person/Scope/Service Principal + Scope
+
+#### Policies
+- Azure entity that controls behaviors within a resource group
+  - Allow you to keep compliant with corporate standards and SLAs
+  - Set in a scope with a name and definition
+## Scope
+- E.g. resource group, subscription.
+- Definition: E.g. "Allow resource types"
+- Name, description, Policy (e.g. azurepolicy.rules.json), Parameters (e.g. azurepolicy.parameters.json)
+
+## Events
+- Create event subscriptions triggered by the resources group in Event Grid.
+
+## Automation Script
+- Can be added to library to be redeployed later on.
+  - ❗ All resources cannot be redeployed
+  - 💡 Must change the name to avoid duplicates.
+- ARM templates for resource groups can also be found on GitHub.
+- You can Add to library, or click on Deploy to deploy directly.
+
+## Moving Resources
+- You can move resources to another resource group or subscription.
+  - ❗ All resources cannot be moved.
+- Ways of moving:
+  - Using CLI: `az resource move --destination-group new-rg --id resourceid`
+  - In portal: Overview → Move
+
+## Alerts
+1. Target: What resource and where
+2. Criteria: What specific action
+3. Details: Who, when, where, how
+4. Action Group: Who to inform and how to inform them
+
+## Metrics
+1. Resource group: Where to look at the metric
+2. Resource type: The type of resource to look at
+3. Available metrics: What specifics about the metrics
+4. Chart: Graphic display of the metric
+
+## Roles
+
+### Role assignments
+- Delegated resource administration
+- Roles organize related resource permissions together
+  - Depends on resource type
+    - E.g. different for VM and storage.
+- Scope
+  - Roles are applied to a scope.
+  - They're inherited in the following order:
+    - Management groups
+    - Subscription
+    - Resource groups
+    - Individual resources
+- Role can be assigned to:
+  - Users
+  - Groups
+  - Service principal
+    - Application
+    - System Assigned Managed Identity: App Service, Function App, Virtual Machine, Virtual Machine Scale Set
+    - User Assigned Managed Identity
+
+### Role types
+
+#### Built-in roles
+- 60+
+- Common roles:
+  - Owner: Manage resources and resource access
+  - Contributor: Manage resources but not resource access.
+  - Reader: Read-only access
+  - Storage Blob Data Reader: Specific to storage accounts
+  - SQL DB Contributor: Manage, but not access, SQL databases
+  - VM Contributor: Manage, but not access, virtual machines.
+
+#### Custom roles
+- ❗ Built using only PowerShell / CLI or REST API.
+  - `New-AzureRmRoleDefinitation -Role $customRole`
+- Shows in the same drop-down lists with built-in roles
+- JSON file looks like this:
+  ```json
+  {
+    "Name": "Network Resource Viewer",
+    "IsCustom": true,
+    "Description": "Allows reading Azure network resources.",
+    "Actions": [ "Microsoft.Network/*/read" ],
+    "NotActions": [ ],
+    "AssignableScopes": [ "/subscriptions/048.." ]
+  }
+  ```
+
+#### Classic Administrator Roles
+- The account that is used to sign up for Azure is automatically set as both the Account Administrator and Service Administrator.
+  - Roles are properties that can be changed in Subscription blade
+- 💡 Azure recommends using RBAC roles
+- Account Administrator (1 per Azure account)
+  - Conceptually, the billing owner of the subscription.
+  - The Account Administrator has no access to the Azure portal.
+- Service Administrator (1 per Azure subscription)
+  - By default, for a new subscription, the Account Administrator is also the Service Administrator.
+  - The Service Administrator has the equivalent access of a user who is assigned the Owner role at the subscription scope.
+  - The Service Administrator has full access to the Azure portal.
+- Co-Administrator (200 per subscription)
+  - The Co-Administrator has the equivalent access of a user who is assigned the Owner role at the subscription scope.
+
+## Azure AD
+
+### Introduction to Active Directory
+- Characteristics
+  - AD is cloud-based and geo-distributed
+    - Your tenant is distributed amongst many servers in Azure.
+    - Provides a high level of availability and scalability.
+  - AD is multi-tenant.
+    - You're running a shared platform.
+    - Each tenant is segmented off on its own.
+    - Provides the ability to give permissions from one tenant to another for certain accounts.
   - Identity & Access
     - Can be an identity/access provider for Microsoft accounts for e.g. Office 365.
     - In-house & third-party developed applications can also leverage this service.
@@ -130,14 +276,9 @@
     - For third-party or in-house applications.
 - Global administrator = Root
 - Can be managed by Azure Portal, PowerShell/CLI, Microsoft Graph, and API
-  - Resource group holds different unique resources  - Microsoft Graph: API product trying to create a single way of interacting with all Microsoft APIs.
-  - Resource groups can contain resources that reside in different regions
-    - Location of resource group is just the metadata for the resource group
+  - Microsoft Graph: API product trying to create a single way of interacting with all Microsoft APIs.
 
-#### Tags
-- Categorization/organization of resource groups for e.g. billing, management
-  - Example: `Dept: IT`
-- Tags are not inherited### Role-Based Access Control
+### Role-Based Access Control
 - Roles define actions that the role is capable of doing.
 - 💡 Roles are assigned to users and users only.
 - ❗ Pre-built roles only.
@@ -147,6 +288,14 @@
   - If you need separation of roles, you can create a new tenant and assign roles and permissions on that account.
 
 ### Custom Domains
+- You initially get tenantname.onmicrosoft.com
+- Custom names must be fully qualified: Not a local name but an online name.
+- Ownership must be verified
+  - Microsoft gives text records (TXT or MX)
+  - You put a text record in DNS to get verified
+- You can verify multiple domains
+- Possible to register subdomains but you register the parent domain.
+- In Portal: Active Directory → Custom domain names → Add custom domain
 
 ### Multiple Directories
 - Resource independence
@@ -155,9 +304,9 @@
 - Administrative independencies
   - ❗ If you're a global admin in one directory doesn't mean you have any access in another directory.
 - Synchronization independence
-#### Policies  - You can synchronize to a specific directory and it does not impact other directories.
-- Azure entity that controls behaviors within a resource group- Switch directory
-  - Allow you to keep compliant with corporate standards and SLAs  - In Portal → Active Directory → Overview → Switch directory
+  - You can synchronize to a specific directory and it does not impact other directories.
+- Switch directory
+  - In Portal → Active Directory → Overview → Switch directory
 
 ### Conditional Access
 - Can be applied to users, locations, devices, applications.
@@ -167,36 +316,32 @@
 - ❗ Only available in Azure AD Premium
 - Condition (if something) → Control (do something)
   - Conditions
-    - User ID
-    - Locations (IP)
+    - Users and groups
+      - Groups
+      - User ID
+      - Locations (IP)
     - Cloud apps
     - Device platform and state
       - Domain Joined
       - Compliant
       - Lost or Stolen
-## Moving Resources    - Locations (IP)
-- You can move resources to another resource group or subscription.
-  - ❗ All resources cannot be moved.
-- Ways of moving:
-  - Using CLI: `az resource move --destination-group new-rg --id resourceid`    - Client apps
+    - Locations (IP)
+    - Client apps
   - Control: Allow, Deny, MFA
     - Multi-factor authentication
     - Compliant device
-1. Target: What resource and where    - Approved client app
-2. Criteria: What specific action    - Terms of use
-3. Details: Who, when, where, how    - Custom and session controls
-4. Action Group: Who to inform and how to inform them- Manage in AD - Conditional Access
+    - Approved client app
+    - Terms of use
+    - Custom and session controls
+- Manage in AD - Conditional Access
 - Example policy: "Marketing app from US only"
-## Metrics  - Assignments
-1. Resource group: Where to look at the metric    - Users and groups: All users
-2. Resource type: The type of resource to look at
-3. Available metrics: What specifics about the metrics
-4. Chart: Graphic display of the metric
-
-## Roles
+  - Assignments
+    - Users and groups: All users
     - Cloud apps: Marketing app (registered in Azure AD)
     - Conditions
       - Locations: Include any location but exclude Contoso location
+        - Contoso locations is a named location
+        - Set US locations in portal: Active Directory → Conditional Access → Named locations
       - Client apps: Apply policy with access from Browser but not from mobile apps and desktop clients.
   - Access controls: Block access
 
@@ -210,17 +355,17 @@
 - Managed in Access Reviews (separate view, not included in AD)
 
 ### Administrative Units
-  - Service principal- Container of resources
-    - Application
-    - System Assigned Managed Identity: App Service, Function App, Virtual Machine, Virtual Machine Scale Set- Used for
-    - User Assigned Managed Identity  - Delegating administrative permissions over subsets of users
+- Container of resources
+- Used for
+  - Delegating administrative permissions over subsets of users
+  - Applying policies to a subset of users
+- Useful in organizations with independent (autonomous) divisions
 - An administrative unit is a directory object that can be created and populated with resources/users.
-### Role types- AD Premium feature
+- AD Premium feature
 - E.g. a central administrator can
-#### Built-in roles  - Create an administrative unit for a particular school (Business school)
-- 60+  - Populate it with only the Business school users
-- Common roles:
-  - Owner: Manage resources and resource access  - Central administrator can add the Business school IT staff to a scoped role
+  - Create an administrative unit for a particular school (Business school)
+  - Populate it with only the Business school users
+  - Central administrator can add the Business school IT staff to a scoped role
     - Grants the IT staff of Business school administrative permissions only over the Business school administrative unit
 
 ### Identity Protection
@@ -246,27 +391,31 @@
 - Active Directory → Azure AD Connect
   - Install Azure AD Connect health from here
   - Shows how healthy your Azure AD Connections
-- 💡 Azure recommends using RBAC roles
-- Account Administrator (1 per Azure account)## Azure AD Entities
-  - Conceptually, the billing owner of the subscription.
-  - The Account Administrator has no access to the Azure portal.
-- Service Administrator (1 per Azure subscription)
-  - By default, for a new subscription, the Account Administrator is also the Service Administrator.
-  - The Service Administrator has the equivalent access of a user who is assigned the Owner role at the subscription scope.### Users
+
+## Azure AD Entities
+
+### Users
 
 #### Types of users
 - Cloud or Synced (from local AD through AD Connect)
+- Member or Guest
+  - Members are created within the AD directory
+  - Guests are invited by administrators or one of the other users of Azure AD.
 
 #### Common settings
 - Usual attributes (e.g. department, phone number, contact, email)
 - Setup password policy, expiration policy, flag users needing to reset their password
 
 #### Usage Location
-    - Your tenant is distributed amongst many servers in Azure.- Location is required if you want to assign a license to a user within AD.
-    - Provides a high level of availability and scalability.
-  - AD is multi-tenant.#### Create new user
-    - You're running a shared platform.
-    - Each tenant is segmented off on its own.- AD → User → new User
+- Location is required if you want to assign a license to a user within AD.
+- Set usage location
+  - In portal: Active Directory → Users → Select User → Profile → Settings
+- You can then assign a license
+  - In Portal: Active Directory → Users → Select User → Licenses
+- User Principal Name: Combination of a user name + domain.
+
+#### Create new user
+- AD → User → new User
 - User name
   - Required, e.g. test@contoso.onmicrosoft.com
 - Properties: Optional information e.g. first name, last name, job title.
@@ -276,11 +425,16 @@
 - Good for B2B scenarios
   - AD is not required on the other business side.
 
-#### Authentication methods
-- Types:
-  - Text message/Phone call
-  - Secondary email
-  - Security questions
+#### Self-service password reset
+- Scenarios
+  - Allows users to change their passwords
+  - If you cannot log in somehow
+  - Helps with account lockout
+- Authentication methods
+  - Types:
+    - Text message/Phone call
+    - Secondary email
+    - Security questions
   - Administrator requires one or more.
 - Manage in portal
   - Steps: Active Directory → Password Reset
@@ -288,14 +442,10 @@
     - Enable
       - You can enable for all users or selected users.
       - 💡 Good to first enable for a pilot group to see how it works.
-- You initially get tenantname.onmicrosoft.com    - Registration
-- Custom names must be fully qualified: Not a local name but an online name.
-- Ownership must be verified      - Require users to register when signing in
-  - Microsoft gives text records (TXT or MX)      - Prompts user to fill information for authentication methods.
-  - You put a text record in DNS to get verified      - After how long user will be prompted to confirm authentication method information
-- You can verify multiple domains
-- Possible to register subdomains but you register the parent domain.
-- In Portal: Active Directory → Custom domain names → Add custom domain
+    - Registration
+      - Require users to register when signing in
+      - Prompts user to fill information for authentication methods.
+      - After how long user will be prompted to confirm authentication method information
     - Notifications
       - Notify users on password resets
       - Notify all admins when other admins reset their password
@@ -316,13 +466,22 @@
     - Assigned: You assign users to groups manually
     - Dynamic: You select various attributes to make users members of a group
       - Dynamic query e.g. department Equals marketing
-    - Users and groups  - Security or Office 365
-      - Groups    - Security groups are for assigning permissions.
+  - Security or Office 365
+    - Security groups are for assigning permissions.
 - Owners and members
   - Owners: Can add/remove users from the group.
-  - Members: Users who are part of the group.
-- Everything is logged
-  - You can e.g. trigger an alert on frequent activities in a group
+  - Members: cannot manage the group, normal permissions
+- Expiration of groups
+  - Groups can automatically expire.
+- You manage in "Azure Directory → Groups"
+  - You can assign licenses to a group where each member will get a license.
+- Good for performing bulk user updates
+- Self-service group management
+  - Owners manage groups instead of administrators that manage the group for the owners.
+  - Users can request to join a group by providing some business justification.
+  - Audits & alerts
+    - Everything is logged
+    - You can e.g. trigger an alert on frequent activities in a group
 - Company Branding
   - In portal: Active Directory → Users and groups → Company branding
   - Allows you to customize the pages with e.g. banner, sign-in page text, user name hint
@@ -332,165 +491,6 @@
 - Device settings show overview in Portal
   - Intune + MDM offer much more control
 - You can add a work or school account to integrate
-
-#### Registration types
-
-##### Register Device
-- Basic registration
-- Bring your own device (BYOD) scenario
-- For mobile devices and Windows 10
-  - Enable/disable and additional management (MDM) for mobile devices like intune.
-        - Contoso locations is a named location- Enterprise State Roaming
-        - Set US locations in portal: Active Directory → Conditional Access → Named locations  - Users synchronize their user settings and application settings data to the cloud.
-  - Supported in Windows 10
-  - Enhanced security, management, and monitoring.
-  - Separation of corporate and consumer data in the cloud.
-
-##### Join Device
-- Corporate-owned assets that you want to manage
-- E.g. Windows 7 or Windows 10
-- You get some benefits e.g. single sign-on.
-
-##### Hybrid Join
-- You can enable automatic registration for your AD joined computers
-- Join device in both local AD and Azure AD
-- Grant device user access to apps that need traditional local AD (=on-prem AD) authentication.
-- You get a service principal for the device
-- Actual management is done through Group Policy or System Center Configuration Manager.
-- They're tied in to Azure AD but not part of core AD.
-  - Applying policies to a subset of users- Relies on AD Connect for synchronization
-- Useful in organizations with independent (autonomous) divisions  - If they're already joined to local AD, they're also registered in Azure AD automatically.
-- Configuration
-  - Ensure access to external Azure AD URLs.
-  - Configure SCP (service connection point) internally.
-
-## Manage in Portal
-
-### Active Directory → Devices
-
-### Configurations
-- **Users may join devices to Azure AD**
-- **Additional administrators on Azure AD joined devices**
-  - Default is none, you can select users
-- **Users may register their devices with Azure AD**
-- **Require Multi-Factor Auth to join devices**
-- **Maximum number of devices per device**
-- **Users may sync settings and enterprise app data**
-  - All, selected, None
-- For more, you need PowerShell.
-
-## Azure AD Device Settings/Policies
-- **Control permissions**: Who's allowed to access join devices?
-- **Control sync**: Enabled/disabled
-- **Device management**: Through Intune or other MDM
-- **Conditional access**: Whether or not device has access to resources within your organization
-
-## Applications
-- **Azure AD IDaaS (Identity Directory as a Service)**
-- **Application types**: Third party or internal, pre-integrated or proxies
-- **Automated user provisioning through SCIM 2.0**:
-  - Use provisioning enables synchronization of user account.
-  - **SCIM**:
-    - System for cross domain identity management.
-    - Defined by IETF
-    - Control users, groups and their relations
-  - Available on select SaaS apps
-- **In portal**: You can assign access to applications
-
-## Governance - Azure AD - Hybrid Identities
-- Member or Guest
-  - Members are created within the AD directory
-  - Guests are invited by administrators or one of the other users of Azure AD.- Hybrid (common) identity = Cloud + On Premises identity
-- Connection is done through Azure AD connect
-
-### Four Pillars
-
-- **Unified Development and DevOps**
-  - A common approach to building applications, and full flexibility to deploy in the cloud or on-premises
-
-- Set usage location- **Integrated management and security**
-  - In portal: Active Directory → Users → Select User → Profile → Settings  - Built-in management and security solutions across full operational lifecycle from cloud to on-premises
-- You can then assign a license
-  - In Portal: Active Directory → Users → Select User → Licenses- **Common Identity**
-- User Principal Name: Combination of a user name + domain.  - Enable end-user productivity with single sign on to cloud and on premises applications while protecting corporate data
-
-- Enrich with analysis and deep learning
-
-### Azure AD Connect
-- Integrate your on-premises AD or LDAP directory to the cloud
-- Connect your users to thousands of SaaS applications published through Azure
-- Manage in Azure AD Connect → Synchronization Service
-- Adjust to business changes after Azure AD Connect is installed.
-  - Change the service accounts
-  - Add the Managers OU to be included in the synchronization
-
-### Preparing for Azure AD Connect
-#### Self-service password reset- Create a new user in Azure AD as Global Administrator
-- Scenarios- Download Azure AD Connect and install it.
-  - Allows users to change their passwords  - You need > Windows Server 2008
-
-### Install and configure Azure AD Connect
-- **Installation settings**
-  - Initially
-    - Custom or Express installation
-    - Installation location
-    - Create an express SQL or use an existing SQL instance
-    - Provide a service account or create a new one
-    - Service account for SQL server
-    - Custom sync groups
-      - Fill: Administrators group, operators group, browser group, password reset groups
-      - Global administration username password
-      - Select directory type (AD or LDAP)
-      - Then type Forest name
-      - Create new AD account or use existing AD account
-      - Type domain username and password
-      - **Recommended to enter Enterprise Admin credentials**
-      - Select UPN for sign-in
-        - E.g. azure-contoso.com
-      - Select user name: e.g. userPrincipalName, treeName, unicodePwd
-  - Then
-    - Choose what domains and OUs get synchronized to the cloud
-      - Sync all domains and OUs or sync selected domains and OUs
-    - How to uniquely identify users
-      - Identification:
-        - Users are represented only once across all directories.
-        - User identities exist across multiple directories.
-      - Match using: mail attribute, specific attribute, etc.
-- App registrations
-        - Let Azure manage the source anchor for me
-        - Specific attribute: objectGUID, pager, objectSid etc.
-    - Filter users and devices by group
-      - Synchronize all users and devices
-      - Synchronize selected
-    - Optional features
-      - Exchange hybrid deployment
-      - Exchange mail public folders
-      - Azure AD app and attribute filtering
-      - Password synchronization
-      - Password writeback
-      - Group writeback
-      - Device writeback
-  - Members: cannot manage the group, normal permissions      - Directory extension attribute sync.
-- Expiration of groups      - Enable single sign on
-  - Groups can automatically expire.        - **Requires domain administrator account**
-- You manage in "Azure Directory → Groups"      - Choose staging mode or install it
-  - You can assign licenses to a group where each member will get a license.        - Staging mode: Synchronization won't synchronize any data to Azure AD
-- Good for performing bulk user updates- **Post installation**
-- Self-service group management  - Install AzureAD PowerShell module
-  - Owners manage groups instead of administrators that manage the group for the owners.  - **Then enable Azure AD recycle bin**
-  - Users can request to join a group by providing some business justification.
-  - Audits & alerts### Metaverse
-- What'll be synced in the next synchronization
-  - Connectors to and from on-premises Active Directory
-  - Connectors to and from Azure Active Directory
-- Controls what attributes from what objects from what location are available for synchronization
-
-## Hybrid Planning
-
-### Sign On
-- **Authentication and Authorization**
-  - How do users typically login to their on-premises environment?
-  - How will users
 
 #### Registration types
 
@@ -570,7 +570,7 @@
 - Provides private, dedicated, high-bandwidth connectivity between your on-premises network and Azure
 - Bypasses the public internet for improved security, reliability, and performance
 - Supports multiple connectivity models: CloudExchange colocation, Point-to-point Ethernet, and Any-to-any (IPVPN)
-- Integrated with Azure Virtual Network, Azure Private Link, and other Azure networking services
+- Integ- App registrationsetwork, Azure Private Link, and other Azure networking services
 - Offers flexible billing options and SLAs for guaranteed uptime and performance
 ##### Hybrid Join
 - You can enable automatic registration for your AD joined computers
@@ -2819,6 +2819,15 @@ o No public IP address
  Good for applying load balancing to n-tier application services (database)
 pg. 92
 
+Application Gateway
+ OSI Layer 7 application
+ Application Delivery Controller (ADC) as a service
+ SSL offload
+ Has Web Application Firewall (WAF)
+Traffic Manager
+ DNS-level
+ Geographical load balancing
+ Offers different routing methodsconve
 Application Gateway
  OSI Layer 7 application
  Application Delivery Controller (ADC) as a service
