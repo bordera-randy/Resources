@@ -16,10 +16,11 @@ This repository is designed to provide a comprehensive collection of resources t
 
 ## Resources
 
-- [Microsoft Resources](Microsoft.md)
-- [AWS Resources](AWS.md)
+- [Microsoft Resources](Student%20Resources/Microsoft.md)
+- [AWS Resources](Student%20Resources/AWS.md)
+- [Terraform Resources](Student%20Resources/terraform%20resources.md)
 - [F5 Resources](Student%20Resources/F5%20Resources.md)
-- [New to IT](New%20to%20IT.md)
+- [New to IT](Student%20Resources/New%20to%20IT.md)
 
 ### Student Resources
 
