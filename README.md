@@ -6,8 +6,7 @@ Welcome to the Resources Repository! This repository contains a collection of va
 
 - [Introduction](#introduction)
 - [Resources](#resources)
-    - [Microsoft](#microsoft)
-    - [AWS](#aws)
+- [Student Resources](#student-resources)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -17,21 +16,20 @@ This repository is designed to provide a comprehensive collection of resources t
 
 ## Resources
 
-### Microsoft
-
 - [Microsoft Resources](Microsoft.md)
-
-### AWS
-
 - [AWS Resources](AWS.md)
+- [F5 Resources](Student%20Resources/F5%20Resources.md)
+- [New to IT](New%20to%20IT.md)
 
 ### Student Resources
 
-- [Azure Fundamentals](Student%20Resources/az900.md)
-- [Azure Administrator](Student%20Resources/az104.md)
-- [Azure Security Engineer](Student%20Resources/az500.md)
-- [Azure Solutions Architect](Student%20Resources/az305.md)
-
+- [AZ900 Azure Fundamentals](Student%20Resources/az900.md)
+- [AZ104 Azure Administrator](Student%20Resources/az104.md)
+- [AZ500 Azure Security Engineer](Student%20Resources/az500.md)
+- [AZ305 Azure Solutions Architect](Student%20Resources/az305.md)
+- [AZ700 Azure Network Engineer](Student%20Resources/az700.md) COMING SOON!!!
+- [SC200 Security Operations Analyst](Student%20Resources/sc200.md) COMING SOON!!!
+- [SC100 Cybersecurity Architect](Student%20Resources/sc100.md) COMING SOON!!!
 
 ## Contributing
 
