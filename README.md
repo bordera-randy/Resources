@@ -21,16 +21,24 @@ This repository is designed to provide a comprehensive collection of resources t
 - [Terraform Resources](Student%20Resources/terraform%20resources.md)
 - [F5 Resources](Student%20Resources/F5%20Resources.md)
 - [New to IT](Student%20Resources/New%20to%20IT.md)
+- [Cloud Comparison](Student%20Resources/cloud%20comparison.md)
 
 ### Student Resources
+#### PowerShell
+- [Basic PowerShell](Student%20Resources/PowerShell%20basics.md) COMING SOON !!!
+- [Advanced PowerShell](Student%20Resources/advanced%20powershell.md)  COMING SOON !!!
 
+
+#### Azure 
 - [AZ900 Azure Fundamentals](Student%20Resources/az900.md)
 - [AZ104 Azure Administrator](Student%20Resources/az104.md)
-- [AZ500 Azure Security Engineer](Student%20Resources/az500.md)
+- [AZ700 Azure Network Engineer](Student%20Resources/az700.md) 
 - [AZ305 Azure Solutions Architect](Student%20Resources/az305.md)
-- [AZ700 Azure Network Engineer](Student%20Resources/az700.md) COMING SOON!!!
-- [SC200 Security Operations Analyst](Student%20Resources/sc200.md) COMING SOON!!!
-- [SC100 Cybersecurity Architect](Student%20Resources/sc100.md) COMING SOON!!!
+
+#### Security
+- [AZ500 Azure Security Engineer](Student%20Resources/az500.md)
+- [SC200 Security Operations Analyst](Student%20Resources/sc200.md) 
+- [SC100 Cybersecurity Architect](Student%20Resources/sc100.md) 
 
 ## Contributing
 
