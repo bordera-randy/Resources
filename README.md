@@ -73,6 +73,25 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 ---
 
+## AI Resources
+
+| Level | Description | File |
+|--------|-------------|------|
+| **Guide to Using AI** | Full guide to using AI effectively | [AI User Guide](Student%20Resources/guide-to-ai.md) |
+| **AI Cheat Sheet** | Quick reference for AI workflow | [AI Cheat Sheet](Student%20Resources/ai-cheat-sheet.md) |
+| **Prompt Templates** | Reusable templates for common tasks (writing, coding, architecture, troubleshooting) | [Prompt Templates](Student%20Resources/ai-prompt-templates.md) |
+| **AI Prompt Patterns** | Instructional patterns for structured prompts (role prompting, chain-of-thought, multi-stage prompts) | [Prompt Patterns](Student%20Resources/ai-prompt-patterns.md) |
+| **AI Troubleshooting Guide** | How to fix bad AI answers and recover from hallucinations | [AI Troubleshooting Guide](Student%20Resources/ai-troubleshooting.md) |
+| **AI Ethics & Safety** | Guidelines for safe, compliant, ethical AI usage | [AI Ethics](Student%20Resources/ai-ethics.md) |
+| **AI for Cloud Engineering** | Best practices for using AI in DevOps, Terraform, Azure, pipelines | [Cloud Engineering + AI](Student%20Resources/ai-cloud-engineering.md) |
+| **AI for Writing** | Story, editing, outlining, and worldbuilding prompts | [AI Writing Guide](Student%20Resources/ai-writing.md) |
+| **AI for Learning** | Study techniques, exam prep prompts, and note-taking workflows | [AI Learning Guide](Student%20Resources/ai-learning.md) |
+| **AI Tools List** | Recommended AI tools (code, writing, diagrams, PDFs, study tools) | [AI Tools](Student%20Resources/ai-tools.md) |
+| **AI Privacy Guide** | How to protect personal, corporate, and customer data when using AI | [AI Privacy](Student%20Resources/ai-privacy.md) |
+| **AI Sandbox Exercises** | Practice prompts to build AI skills step-by-step | [AI Exercises](Student%20Resources/ai-exercises.md) |
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions from the community!  
