@@ -32,7 +32,7 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 |-------|--------------|
 | [Microsoft Resources](Student%20Resources/Microsoft.md) | Official Microsoft learning paths, tools, and docs |
 | [AWS Resources](Student%20Resources/AWS.md) | AWS certification and hands-on practice resources |
-| [Terraform Resources](Student%20Resources/terraform-resources.md) | Infrastructure as Code (IaC) guides and module examples |
+| [Terraform Resources](Student%20Resources/Terraform-Resources.md) | Infrastructure as Code (IaC) guides and module examples |
 | [F5 Resources](Student%20Resources/F5%20Resources.md) | F5 load balancing and network automation references |
 | [New to IT](Student%20Resources/New%20to%20IT.md) | Entry-level roadmap for newcomers to IT |
 | [Cloud Comparison](Student%20Resources/cloud%20comparison.md) | Azure vs AWS vs GCP service comparison |
