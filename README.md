@@ -6,12 +6,13 @@ This repository is designed for **students, developers, and engineers** preparin
 ---
 
 ## 📘 Table of Contents
-- [Overview](#overview)
+- [🧭 Overview](#-overview)
 - [🌩 Cloud & Platform Resources](#-cloud--platform-resources)
 - [🧑‍🎓 Student & Certification Guides](#-student--certification-guides)
   - [Microsoft Azure Certifications](#microsoft-azure-certifications)
   - [Security & Compliance Certifications](#security--compliance-certifications)
   - [PowerShell Training](#powershell-training)
+- [AI Resources](#ai-resources)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
