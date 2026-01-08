@@ -1,9 +1,9 @@
----
+<!-- ---
 title: "Microsoft Cloud & Training Resources"
 description: "Centralized reference for Microsoft Azure, Microsoft 365, DevOps, Cloud Adoption Framework, Landing Zones, and MCT resources."
 tags: ["Microsoft", "Azure", "Microsoft 365", "DevOps", "MCT", "CAF", "Landing Zone"]
 updated: "2025-10-23"
----
+--- -->
 
 # ☁️ Microsoft Cloud & Learning Resources
 
