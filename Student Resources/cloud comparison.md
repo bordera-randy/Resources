@@ -146,3 +146,11 @@
 
 ---
 
+## 🌐 Application Platform / PaaS (Web Apps & APIs)
+
+| Capability             | Microsoft Azure          | Amazon Web Services        | Google Cloud Platform |
+| ---------------------- | ------------------------ | -------------------------- | --------------------- |
+| Core PaaS Web Hosting  | **Azure App Service**    | Elastic Beanstalk          | App Engine            |
+| Containerized Web Apps | App Service (Containers) | Elastic Beanstalk (Docker) | App Engine Flex       |
+| Serverless Web Apps    | Azure Functions          | Lambda + API Gateway       | Cloud Functions       |
+| Modern PaaS Containers | Azure Container Apps     | App Runner                 | Cloud Run             |
