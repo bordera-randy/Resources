@@ -1,35 +1,148 @@
 # Cloud Services Comparison Cheat Sheet
 
+## ☁️ Core Compute Services
 
+| Capability                   | Microsoft Azure                       | Amazon Web Services         | Google Cloud Platform   |
+| ---------------------------- | ------------------------------------- | --------------------------- | ----------------------- |
+| Virtual Machines             | Azure Virtual Machines                | EC2 (Elastic Compute Cloud) | Compute Engine          |
+| VM Scale Sets / Auto Scaling | Virtual Machine Scale Sets (VMSS)     | Auto Scaling Groups         | Managed Instance Groups |
+| Dedicated Hosts              | Azure Dedicated Host                  | EC2 Dedicated Hosts         | Sole-Tenant Nodes       |
+| Spot / Preemptible VMs       | Spot VMs                              | EC2 Spot Instances          | Preemptible VMs         |
+| Bare Metal                   | Azure BareMetal Infrastructure        | AWS Bare Metal Instances    | Bare Metal Solution     |
+| Custom Images                | Managed Images / Shared Image Gallery | AMIs                        | Custom Images           |
+| GPU Instances                | GPU-enabled VMs                       | GPU EC2 Instances           | GPU VMs                 |
 
-| Service Category       | Azure                          | AWS                            | Google Cloud                           | Oracle Cloud                                      |
-|------------------------|--------------------------------|--------------------------------|----------------------------------------|---------------------------------------------------|
-| Compute                | Azure Virtual Machines         | Amazon EC2                     | Google Compute Engine                  | Oracle Cloud Infrastructure Compute               |
-| Storage                | Azure Blob Storage             | Amazon S3                      | Google Cloud Storage                   | Oracle Cloud Infrastructure Object Storage        |
-| Database               | Azure SQL Database             | Amazon RDS                     | Google Cloud SQL                       | Oracle Autonomous Database                        |
-| Networking             | Azure Virtual Network          | Amazon VPC                     | Google Virtual Private Cloud           | Oracle Cloud Infrastructure Virtual Cloud Network |
-| Identity & Access      | Azure Active Directory         | AWS IAM                        | Google Cloud IAM                       | Oracle Identity Cloud Service                     |
-| Machine Learning       | Azure Machine Learning         | Amazon SageMaker               | Google AI Platform                     | Oracle Cloud Infrastructure Data Science          |
-| Serverless Computing   | Azure Functions                | AWS Lambda                     | Google Cloud Functions                 | Oracle Functions                                  |
-| Container Orchestration| Azure Kubernetes Service (AKS) | Amazon EKS                     | Google Kubernetes Engine (GKE)         | Oracle Container Engine for Kubernetes            |
-| DevOps                 | Azure DevOps                   | AWS CodePipeline               | Google Cloud Build                     | Oracle Developer Cloud Service                    |
-| Analytics              | Azure Synapse Analytics        | Amazon Redshift                | Google BigQuery                        | Oracle Analytics Cloud                            |
-| IoT                    | Azure IoT Hub                  | AWS IoT Core                   | Google Cloud IoT                       | Oracle IoT Cloud Service                          |
-| Security               | Azure Security Center          | AWS Security Hub               | Google Cloud Security Command Center   | Oracle Cloud Guard                                |
-|                        | Azure API Management           | AWS API Gateway                | Google Cloud Endpoints                 | Oracle API Gateway                                |
-|                        | Azure Logic Apps               | AWS Step Functions             | Google Cloud Workflows                 | Oracle Integration Cloud                          |
-|                        | Azure Data Factory             | AWS Glue                       | Google Cloud Dataflow                  | Oracle Data Integration                           |
-|                        | Azure Cognitive Services       | AWS Rekognition                | Google Cloud Vision AI                 | Oracle AI Services                                |
-|                        | Azure Bot Service              | AWS Lex                        | Google Cloud Dialogflow                | Oracle Digital Assistant                          |
-|                        | Azure DevTest Labs             | AWS Cloud9                     | Google Cloud Shell                     | Oracle Cloud Infrastructure Resource Manager      |
-| Monitoring             | Azure Monitor                  | Amazon CloudWatch              | Google Cloud Monitoring                | Oracle Cloud Infrastructure Monitoring            |
-| CDN                    | Azure CDN                      | Amazon CloudFront              | Google Cloud CDN                       | Oracle Cloud Infrastructure CDN                   |
-| Backup                 | Azure Backup                   | AWS Backup                     | Google Cloud Backup                    | Oracle Cloud Infrastructure Backup                |
-| DNS                    | Azure DNS                      | Amazon Route 53                | Google Cloud DNS                       | Oracle Cloud Infrastructure DNS                   |
-| Load Balancing         | Azure Load Balancer            | Amazon ELB                     | Google Cloud Load Balancing            | Oracle Cloud Infrastructure Load Balancer         |
-| Messaging              | Azure Service Bus              | Amazon SQS                     | Google Cloud Pub/Sub                   | Oracle Cloud Infrastructure Streaming             |
-| Data Lake              | Azure Data Lake Storage        | Amazon S3                      | Google Cloud Storage                   | Oracle Cloud Infrastructure Data Lake             |
-| Data Warehouse         | Azure Synapse Analytics        | Amazon Redshift                | Google BigQuery                        | Oracle Autonomous Data Warehouse                  |
-| API Management         | Azure API Management           | Amazon API Gateway             | Google Cloud Endpoints                 | Oracle API Gateway                                |
-| Event Streaming        | Azure Event Hubs               | Amazon Kinesis                 | Google Cloud Pub/Sub                   | Oracle Cloud Infrastructure Streaming             |
-| Blockchain             | Azure Blockchain Service       | Amazon Managed Blockchain      | Google Cloud Blockchain                | Oracle Blockchain Platform                        |
+---
+
+## 📦 Containers & Kubernetes
+
+| Capability             | Azure                          | AWS                      | GCP                            |
+| ---------------------- | ------------------------------ | ------------------------ | ------------------------------ |
+| Managed Kubernetes     | Azure Kubernetes Service (AKS) | Amazon EKS               | Google Kubernetes Engine (GKE) |
+| Serverless Containers  | Azure Container Apps           | AWS App Runner / Fargate | Cloud Run                      |
+| Container Registry     | Azure Container Registry (ACR) | Amazon ECR               | Artifact Registry              |
+| Managed Docker Hosting | App Service (Containers)       | Elastic Beanstalk        | App Engine (Flex)              |
+| Service Mesh           | Open Service Mesh / Istio      | App Mesh                 | Anthos Service Mesh            |
+
+---
+
+## 🗄️ Storage Services
+
+| Capability             | Azure                | AWS                   | GCP                   |
+| ---------------------- | -------------------- | --------------------- | --------------------- |
+| Object Storage         | Blob Storage         | S3                    | Cloud Storage         |
+| File Storage           | Azure Files          | EFS                   | Filestore             |
+| Block Storage          | Managed Disks        | EBS                   | Persistent Disk       |
+| Archive Storage        | Blob Archive Tier    | S3 Glacier            | Archive Storage       |
+| Data Transfer          | Azure Data Box       | Snowball              | Transfer Appliance    |
+| Storage Lifecycle Mgmt | Blob Lifecycle Rules | S3 Lifecycle Policies | Object Lifecycle Mgmt |
+
+---
+
+## 🧠 Databases (Managed)
+
+### Relational
+
+| Capability                 | Azure                         | AWS                     | GCP                  |
+| -------------------------- | ----------------------------- | ----------------------- | -------------------- |
+| Managed SQL (General)      | Azure SQL Database            | RDS                     | Cloud SQL            |
+| MySQL                      | Azure Database for MySQL      | RDS MySQL / Aurora      | Cloud SQL MySQL      |
+| PostgreSQL                 | Azure Database for PostgreSQL | RDS PostgreSQL / Aurora | Cloud SQL PostgreSQL |
+| SQL Server                 | Azure SQL / SQL MI            | RDS SQL Server          | Cloud SQL SQL Server |
+| Enterprise Distributed SQL | Azure SQL Hyperscale          | Aurora                  | Spanner              |
+
+### NoSQL
+
+| Capability           | Azure                     | AWS         | GCP         |
+| -------------------- | ------------------------- | ----------- | ----------- |
+| Key-Value / Document | Cosmos DB                 | DynamoDB    | Firestore   |
+| Wide-Column          | Cosmos DB (Cassandra API) | Keyspaces   | Bigtable    |
+| Cache (Redis)        | Azure Cache for Redis     | ElastiCache | Memorystore |
+
+---
+
+## 🌐 Networking
+
+| Capability           | Azure                  | AWS                       | GCP                     |
+| -------------------- | ---------------------- | ------------------------- | ----------------------- |
+| Virtual Network      | Virtual Network (VNet) | VPC                       | VPC                     |
+| Subnets              | Subnets                | Subnets                   | Subnets                 |
+| Load Balancer (L4)   | Azure Load Balancer    | Network Load Balancer     | TCP/UDP Load Balancer   |
+| Application LB (L7)  | Application Gateway    | Application Load Balancer | HTTP(S) Load Balancer   |
+| Global Traffic Mgmt  | Traffic Manager        | Route 53                  | Cloud DNS + Global LB   |
+| Private Connectivity | Private Endpoint       | PrivateLink               | Private Service Connect |
+| NAT Gateway          | NAT Gateway            | NAT Gateway               | Cloud NAT               |
+| DDoS Protection      | Azure DDoS Protection  | AWS Shield                | Cloud Armor             |
+
+---
+
+## 🔐 Identity, Security & Governance
+
+| Capability            | Azure                      | AWS                 | GCP                 |
+| --------------------- | -------------------------- | ------------------- | ------------------- |
+| IAM                   | Entra ID (Azure AD) + RBAC | IAM                 | Cloud IAM           |
+| Identity Federation   | Entra ID                   | IAM Identity Center | Workforce Identity  |
+| Secrets Mgmt          | Key Vault                  | Secrets Manager     | Secret Manager      |
+| HSM                   | Azure Managed HSM          | CloudHSM            | Cloud HSM           |
+| Policy Enforcement    | Azure Policy               | AWS Config + SCP    | Organization Policy |
+| Compliance Blueprints | Azure Blueprints           | Control Tower       | Assured Workloads   |
+
+---
+
+## ⚙️ DevOps & Automation
+
+| Capability             | Azure                   | AWS                        | GCP                            |
+| ---------------------- | ----------------------- | -------------------------- | ------------------------------ |
+| CI/CD                  | Azure DevOps            | CodePipeline               | Cloud Build                    |
+| Infrastructure as Code | ARM / Bicep / Terraform | CloudFormation / Terraform | Deployment Manager / Terraform |
+| Artifact Repo          | Azure Artifacts         | CodeArtifact               | Artifact Registry              |
+| Automation             | Azure Automation        | Systems Manager            | Cloud Scheduler                |
+| Serverless Functions   | Azure Functions         | Lambda                     | Cloud Functions                |
+
+---
+
+## 📊 Monitoring, Logging & Observability
+
+| Capability     | Azure                   | AWS               | GCP              |
+| -------------- | ----------------------- | ----------------- | ---------------- |
+| Metrics & Logs | Azure Monitor           | CloudWatch        | Cloud Monitoring |
+| Log Analytics  | Log Analytics Workspace | CloudWatch Logs   | Log Explorer     |
+| Tracing        | Application Insights    | X-Ray             | Cloud Trace      |
+| Alerts         | Azure Alerts            | CloudWatch Alarms | Alerting         |
+| Cost Mgmt      | Cost Management         | Cost Explorer     | Billing Reports  |
+
+---
+
+## 📩 Messaging & Integration
+
+| Capability             | Azure                        | AWS            | GCP       |
+| ---------------------- | ---------------------------- | -------------- | --------- |
+| Message Queue          | Storage Queues / Service Bus | SQS            | Pub/Sub   |
+| Pub/Sub                | Event Grid                   | SNS            | Pub/Sub   |
+| Event Streaming        | Event Hubs                   | Kinesis        | Pub/Sub   |
+| Workflow Orchestration | Logic Apps                   | Step Functions | Workflows |
+
+---
+
+## 🧪 Analytics & Big Data
+
+| Capability       | Azure                  | AWS               | GCP                |
+| ---------------- | ---------------------- | ----------------- | ------------------ |
+| Data Warehouse   | Synapse Analytics      | Redshift          | BigQuery           |
+| ETL / ELT        | Data Factory           | Glue              | Dataflow           |
+| Data Lake        | Data Lake Storage Gen2 | Lake Formation    | Cloud Storage      |
+| Stream Analytics | Stream Analytics       | Kinesis Analytics | Dataflow Streaming |
+
+---
+
+## 🧠 AI & Machine Learning
+
+| Capability      | Azure                    | AWS                 | GCP                  |
+| --------------- | ------------------------ | ------------------- | -------------------- |
+| ML Platform     | Azure Machine Learning   | SageMaker           | Vertex AI            |
+| Cognitive APIs  | Azure AI Services        | AI Services         | Cloud AI APIs        |
+| LLM / GenAI     | Azure OpenAI             | Bedrock             | Gemini               |
+| Speech / Vision | Speech Services / Vision | Rekognition / Polly | Vision / Speech APIs |
+
+---
+
