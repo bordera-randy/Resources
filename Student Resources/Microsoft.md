@@ -34,6 +34,8 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Azure GitHub Repository](https://github.com/Azure)
 - [Azure Learning Paths](https://docs.microsoft.com/en-us/learn/azure/)
 
+[↑ Back to top](#microsoft-cloud--learning-resources)
+
 ---
 
 ## Microsoft 365
@@ -42,6 +44,8 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Microsoft 365 Admin Center](https://admin.microsoft.com/)
 - [Microsoft 365 GitHub Repository](https://github.com/MicrosoftDocs/microsoft-365-docs)
 - [Microsoft 365 Learning Paths](https://docs.microsoft.com/en-us/learn/m365/)
+
+[↑ Back to top](#microsoft-cloud--learning-resources)
 
 ---
 
@@ -53,6 +57,8 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Azure DevOps Learning Paths](https://docs.microsoft.com/en-us/learn/azure/devops/)
 - [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/environment/createproject)
 - [azsk/DevOpsKit Docs](https://github.com/azsk/DevOpsKit-docs)
+
+[↑ Back to top](#microsoft-cloud--learning-resources)
 
 ---
 
@@ -71,6 +77,8 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Microsoft Labs Online](https://moc.microsoftlabsonline.com/)
 - [Microsoft Learning Download Center](https://learningdownloadcenter.microsoft.com/)
 
+[↑ Back to top](#microsoft-cloud--learning-resources)
+
 ---
 
 ## Cloud Adoption Framework (CAF)
@@ -79,6 +87,8 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [CAF GitHub Repository](https://github.com/MicrosoftDocs/cloud-adoption-framework)
 - [Financial Model for Cloud Migration](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/financial-models)
 - [Reliability Patterns (Cloud Design)](https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/reliability-patterns)
+
+[↑ Back to top](#microsoft-cloud--learning-resources)
 
 ---
 
@@ -91,6 +101,8 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Azure Landing Zones Documentation](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/landing-zone-deploy)
 - [Terraform CAF Enterprise-Scale Wiki](https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki)
 
+[↑ Back to top](#microsoft-cloud--learning-resources)
+
 ---
 
 ## Policy Advertizer
@@ -99,17 +111,23 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Azure Policy GitHub Repository](https://github.com/Azure/azure-policy)
 - [AzPolicyAdvertizer](https://www.azadvertizer.net/azpolicyadvertizer_all.html)
 
+[↑ Back to top](#microsoft-cloud--learning-resources)
+
 ---
 
 ## Service Trust Portal
 
 - [Service Trust Portal](https://servicetrust.microsoft.com/) — Compliance, audit, and regulatory documents for Microsoft services.
 
+[↑ Back to top](#microsoft-cloud--learning-resources)
+
 ---
 
 ## All Admin Portals
 
 - [All Microsoft Admin Centers](https://admin.microsoft.com/AdminPortal/Home#/alladmincenters)
+
+[↑ Back to top](#microsoft-cloud--learning-resources)
 
 ---
 
@@ -127,6 +145,8 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Compliance Offerings (Azure & M365)](https://learn.microsoft.com/en-us/compliance/regulatory/offering-home)
 - [Security Best Practices & Patterns](https://learn.microsoft.com/en-us/azure/security/fundamentals/best-practices-and-patterns)
 
+[↑ Back to top](#microsoft-cloud--learning-resources)
+
 ---
 
 ## Enterprise Skills Initiative Training
@@ -135,8 +155,9 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 - [Get Certified via ESI](https://esi.microsoft.com/getcertification)
 - [Microsoft Services Hub](https://serviceshub.microsoft.com/home)
 
+[↑ Back to top](#microsoft-cloud--learning-resources)
+
 ---
 
 *Updated: Jan 2026*  
 *Maintained for learners, MCTs, and IT professionals exploring Microsoft Cloud technologies.*
-
