@@ -13,7 +13,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ## 📘 Table of Contents
 
-1. [Microsoft Azure](#🔷-microsoft-azure)
+1. [Microsoft Azure](#microsoft-azure)
 2. [Microsoft 365](#💼-microsoft-365)
 3. [DevOps](#⚙️-devops)
 4. [Microsoft Certified Trainer](#👨‍🏫-microsoft-certified-trainer-mct)
@@ -27,7 +27,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## 🔷 Microsoft Azure
+## Microsoft Azure
 
 - [Azure Documentation](https://docs.microsoft.com/en-us/azure/)
 - [Azure Portal](https://portal.azure.com/)
