@@ -5,25 +5,25 @@ tags: ["Microsoft", "Azure", "Microsoft 365", "DevOps", "MCT", "CAF", "Landing Z
 updated: "2025-10-23"
 --- -->
 
-# ☁️ Microsoft Cloud & Learning Resources
+# Microsoft Cloud & Learning Resources
 
 Welcome to the **Microsoft Resources Guide** — your one-stop hub for official documentation, GitHub repositories, admin portals, and training resources across Microsoft Cloud technologies.
 
 ---
 
-## 📘 Table of Contents
+## Table of Contents
 
 1. [Microsoft Azure](#microsoft-azure)
-2. [Microsoft 365](#💼-microsoft-365)
-3. [DevOps](#⚙️-devops)
-4. [Microsoft Certified Trainer](#👨‍🏫-microsoft-certified-trainer-mct)
-5. [Cloud Adoption Framework](#☁️-cloud-adoption-framework-caf)
-6. [Landing Zone Accelerator](#🧭-landing-zone-accelerator)
-7. [Policy Advertizer](#🧩-policy-advertizer)
-8. [Service Trust Portal](#🛡-service-trust-portal)
-9. [All Admin Portals](#🧭-all-admin-portals)
-10. [Additional Azure & Architecture References](#🧱-additional-azure--architecture-references)
-11. [Enterprise Skills Initiative Training](#🎓-enterprise-skills-initiative-training)
+2. [Microsoft 365](#microsoft-365)
+3. [DevOps](#devops)
+4. [Microsoft Certified Trainer](#microsoft-certified-trainer-mct)
+5. [Cloud Adoption Framework](#cloud-adoption-framework-caf)
+6. [Landing Zone Accelerator](#landing-zone-accelerator)
+7. [Policy Advertizer](#policy-advertizer)
+8. [Service Trust Portal](#service-trust-portal)
+9. [All Admin Portals](#all-admin-portals)
+10. [Additional Azure & Architecture References](#additional-azure--architecture-references)
+11. [Enterprise Skills Initiative Training](#enterprise-skills-initiative-training)
 
 ---
 
@@ -36,7 +36,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## 💼 Microsoft 365
+## Microsoft 365
 
 - [Microsoft 365 Documentation](https://docs.microsoft.com/en-us/microsoft-365/)
 - [Microsoft 365 Admin Center](https://admin.microsoft.com/)
@@ -45,7 +45,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## ⚙️ DevOps
+## DevOps
 
 - [Azure DevOps Documentation](https://docs.microsoft.com/en-us/azure/devops/)
 - [Azure DevOps Services](https://azure.microsoft.com/en-us/services/devops/)
@@ -56,7 +56,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## 👨‍🏫 Microsoft Certified Trainer (MCT)
+## Microsoft Certified Trainer (MCT)
 
 - [Microsoft Certified Trainer Program](https://www.microsoft.com/en-us/learning/mct-certification.aspx)
 - [MCT Central](https://mct.microsoft.com/)
@@ -73,7 +73,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## ☁️ Cloud Adoption Framework (CAF)
+## Cloud Adoption Framework (CAF)
 
 - [CAF Documentation](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/)
 - [CAF GitHub Repository](https://github.com/MicrosoftDocs/cloud-adoption-framework)
@@ -82,7 +82,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## 🧭 Landing Zone Accelerator
+## Landing Zone Accelerator
 
 - [Landing Zone Accelerator Overview](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
 - [Landing Zone GitHub (Enterprise-Scale)](https://github.com/Azure/Enterprise-Scale)
@@ -93,7 +93,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## 🧩 Policy Advertizer
+## Policy Advertizer
 
 - [Azure Policy Documentation](https://learn.microsoft.com/en-us/azure/governance/policy/)
 - [Azure Policy GitHub Repository](https://github.com/Azure/azure-policy)
@@ -101,19 +101,19 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## 🛡 Service Trust Portal
+## Service Trust Portal
 
 - [Service Trust Portal](https://servicetrust.microsoft.com/) — Compliance, audit, and regulatory documents for Microsoft services.
 
 ---
 
-## 🧭 All Admin Portals
+## All Admin Portals
 
 - [All Microsoft Admin Centers](https://admin.microsoft.com/AdminPortal/Home#/alladmincenters)
 
 ---
 
-## 🧱 Additional Azure & Architecture References
+## Additional Azure & Architecture References
 
 - [Azure ARM Templates (Best Practices)](https://github.com/Azure/azure-quickstart-templates/blob/master/1-CONTRIBUTION-GUIDE/best-practices.md)
 - [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/)
@@ -129,7 +129,7 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-## 🎓 Enterprise Skills Initiative Training
+## Enterprise Skills Initiative Training
 
 - [Microsoft Virtual Training Days (ESI)](https://esi.microsoft.com/delivery)
 - [Get Certified via ESI](https://esi.microsoft.com/getcertification)
@@ -137,5 +137,6 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-📘 *Updated: Jan 2026*  
-💡 *Maintained for learners, MCTs, and IT professionals exploring Microsoft Cloud technologies.*
+*Updated: Jan 2026*  
+*Maintained for learners, MCTs, and IT professionals exploring Microsoft Cloud technologies.*
+
