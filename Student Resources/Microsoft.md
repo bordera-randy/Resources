@@ -13,17 +13,17 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ## 📘 Table of Contents
 
-1. [Microsoft Azure](#-microsoft-azure)
-2. [Microsoft 365](#-microsoft-365)
-3. [DevOps](#-devops)
-4. [Microsoft Certified Trainer](#-microsoft-certified-trainer-mct)
-5. [Cloud Adoption Framework](#-cloud-adoption-framework-caf)
-6. [Landing Zone Accelerator](#-landing-zone-accelerator)
-7. [Policy Advertizer](#-policy-advertizer)
-8. [Service Trust Portal](#-service-trust-portal)
-9. [All Admin Portals](#-all-admin-portals)
-10. [Additional Azure & Architecture References](#-additional-azure--architecture-references)
-11. [Enterprise Skills Initiative Training](#-enterprise-skills-initiative-training)
+1. [Microsoft Azure](#🔷-microsoft-azure)
+2. [Microsoft 365](#💼-microsoft-365)
+3. [DevOps](#⚙️-devops)
+4. [Microsoft Certified Trainer](#👨‍🏫-microsoft-certified-trainer-mct)
+5. [Cloud Adoption Framework](#☁️-cloud-adoption-framework-caf)
+6. [Landing Zone Accelerator](#🧭-landing-zone-accelerator)
+7. [Policy Advertizer](#🧩-policy-advertizer)
+8. [Service Trust Portal](#🛡-service-trust-portal)
+9. [All Admin Portals](#🧭-all-admin-portals)
+10. [Additional Azure & Architecture References](#🧱-additional-azure--architecture-references)
+11. [Enterprise Skills Initiative Training](#🎓-enterprise-skills-initiative-training)
 
 ---
 
@@ -137,6 +137,5 @@ Welcome to the **Microsoft Resources Guide** — your one-stop hub for official 
 
 ---
 
-📘 *Updated: October 2025*  
+📘 *Updated: Jan 2026*  
 💡 *Maintained for learners, MCTs, and IT professionals exploring Microsoft Cloud technologies.*
-
