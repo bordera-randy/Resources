@@ -22,9 +22,11 @@ This repository is designed for **students, developers, and engineers** preparin
   - [🌩 Cloud \& Platform Resources](#-cloud--platform-resources)
   - [🧑‍🎓 Student \& Certification Guides](#-student--certification-guides)
     - [Microsoft Azure Certifications](#microsoft-azure-certifications)
+      - [Practice Tests \& Hands-On Labs](#practice-tests--hands-on-labs)
     - [Security \& Compliance Certifications](#security--compliance-certifications)
     - [PowerShell Training](#powershell-training)
     - [Terraform Training](#terraform-training)
+    - [DevOps \& CI/CD](#devops--cicd)
     - [Exam \& Supplementary Guides](#exam--supplementary-guides)
   - [🤖 AI Resources](#-ai-resources)
       - [AI Resources by Use Case](#ai-resources-by-use-case)
@@ -76,6 +78,14 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | **AZ-700** | Azure Network Engineer Associate | [az700.md](Student%20Resources/az700.md) | [Azure] [Networking] |
 | **AZ-400** | DevOps Engineer Expert | [az400.md](Student%20Resources/az400.md) | [Azure] [DevOps] |
 
+#### Practice Tests & Hands-On Labs
+
+| Exam Code | Practice Test | Hands-On Labs | Tags |
+|-----------|--------------|---------------|------|
+| **AZ-900** | [50-Question Practice Test](practice%20tests/az900-practice-test.md) | [5 Hands-On Labs](labs/az900-labs.md) | [Practice] [Labs] |
+| **AZ-104** | [50-Question Practice Test](practice%20tests/az104-practice-test.md) | [5 Hands-On Labs](labs/az104-labs.md) | [Practice] [Labs] |
+| **AZ-700** | [50-Question Practice Test](practice%20tests/az700-practice-test.md) | [5 Hands-On Labs](labs/az700-labs.md) | [Practice] [Labs] |
+
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
 ---
@@ -119,6 +129,18 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | 📚 **Terraform Basics** | Getting started with Terraform, providers, and simple deployments | [Terraform Basics.md](Student%20Resources/Terraform%20Basics.md) | [Terraform] [IaC] [Beginner] |
 | 🚀 **Terraform Advanced** | Modules, workspaces, state management, testing, and security | [Terraform Advanced.md](Student%20Resources/Terraform%20Advanced.md) | [Terraform] [IaC] [Advanced] |
 | 📖 **Terraform Resources** | Comprehensive reference for providers, modules, and multi-cloud examples | [Terraform-Resources.md](Student%20Resources/Terraform-Resources.md) | [Terraform] [IaC] [Reference] |
+
+<p align="right"><a href="#-overview">Back to Top</a></p>
+
+---
+
+### DevOps & CI/CD
+
+> **Summary:** CI/CD pipelines, Azure DevOps configuration, and infrastructure automation workflows.
+
+| Topic | Description | File | Tags |
+|-------|-------------|------|------|
+| 🚀 **Azure DevOps + Terraform** | Complete guide to setting up Azure DevOps pipelines for Terraform deployments | [DevOps-Terraform-Pipelines.md](Student%20Resources/DevOps-Terraform-Pipelines.md) | [DevOps] [Terraform] [CI/CD] [Azure] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
