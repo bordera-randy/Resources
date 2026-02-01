@@ -90,7 +90,7 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | **SC-100** | Cybersecurity Architect Expert | [sc100.md](Student%20Resources/sc100.md) | [Security] [Architect] |
 | **SC-200** | Security Operations Analyst Associate | [sc200.md](Student%20Resources/sc200.md) | [Security] [SOC] |
 | **SC-300** | Identity and Access Administrator Associate | [sc300.md](Student%20Resources/sc300.md) | [Security] [Identity] |
-| ⏳ **SC-400** | Information Protection Administrator | Pending | [Security] [Compliance] [Coming Soon] |
+| **SC-400** | Information Protection Administrator Associate | [sc400.md](Student%20Resources/sc400.md) | [Security] [Compliance] [Protection] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
