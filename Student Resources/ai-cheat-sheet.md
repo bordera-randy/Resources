@@ -1,172 +1,159 @@
-# **Comprehensive AI Workflow Cheat Sheet**
+# 🤖 AI Workflow Cheat Sheet
 
-A disciplined process for getting high-quality, predictable, and explainable output from any AI system.
+<p align="right"><sub>Last updated: January 31, 2026</sub></p>
+
+**A disciplined, step-by-step process for getting high-quality, predictable, and explainable output from any AI system.**
+
+<p align="center">
+  <a href="#prep-stage">Prep</a> •
+  <a href="#clarity-stage">Clarity</a> •
+  <a href="#architect-stage">Architect</a> •
+  <a href="#execute-stage">Execute</a> •
+  <a href="#audit-stage">Audit</a> •
+  <a href="#improvement-stage">Improve</a> •
+  <a href="#enhancement-tools">Enhance</a> •
+  <a href="#red-flags">Red Flags</a> •
+  <a href="#quick-command-prompt">Quick Prompt</a>
+</p>
 
 ---
 
-# **0. Prep Stage — Set the Context**
+## 0. Prep Stage — Set the Context
+<a id="prep-stage"></a>
 Before starting the workflow, define:
-- **Role** you want the AI to take  
-  (e.g., Senior Cloud Architect, Editor, Threat Analyst, Product Strategist)
-- **Quality Bar**  
-  (“enterprise-grade,” “senior engineer level,” “NYT quality writing”)
-- **Refusal Rules**  
-  (“don’t guess,” “don’t invent data,” “don’t skip stages,” “clarify ambiguity”)
+- **Role** you want the AI to take (e.g., Senior Cloud Architect, Editor, Threat Analyst, Product Strategist)
+- **Quality Bar** (“enterprise-grade,” “senior engineer level,” “NYT quality writing”)
+- **Refusal Rules** (“don’t guess,” “don’t invent data,” “don’t skip stages,” “clarify ambiguity”)
 
 ---
 
-# **1. Clarity Stage — Define the Problem**
+## 1. Clarity Stage — Define the Problem
+<a id="clarity-stage"></a>
 Before producing *any* output, force the AI to think.
 
-### **Deliverables (no implementation allowed):**
-- **Assumptions**  
-  What must be assumed because the prompt lacks details?
-
-- **Constraints**  
-  Hard boundaries (tech stack, compliance, tone, format, region, environment, audience).
-
-- **Missing Information**  
-  What would meaningfully improve accuracy if the user provided it?
-
-- **Top 3 Risks**  
-  Where the approach could break:
-  - misunderstood requirements  
-  - ambiguous logic  
-  - hidden dependencies  
-  - unrealistic constraints  
+**Deliverables (no implementation allowed):**
+- **Assumptions** — What must be assumed because the prompt lacks details?
+- **Constraints** — Hard boundaries (tech stack, compliance, tone, format, region, environment, audience).
+- **Missing Information** — What would meaningfully improve accuracy if the user provided it?
+- **Top 3 Risks** — Where the approach could break (misunderstood requirements, ambiguous logic, hidden dependencies, unrealistic constraints)
 
 > **Goal:** Surface ambiguity before it becomes a hallucination.
 
 ---
 
-# **2. Architect Stage — Design the Solution**
+## 2. Architect Stage — Design the Solution
+<a id="architect-stage"></a>
 Turn the clarified problem into a deliberate plan.
 
-### **Deliverables (still no final output):**
-- **High-Level Architecture**  
-  Structure, components, data flows, logic blocks, narrative beats, etc.
-
-- **Step-by-Step Plan**  
-  Clear sequence of operations the AI will follow to execute.
-
-- **Decision Tree With Tradeoffs**  
-  If X → do A  
-  If Y → do B  
-  (ensures the AI can handle variability)
-
-- **Contingency Plan**  
-  What changes if:
-  - requirements shift  
-  - constraints tighten  
-  - extra context becomes available  
-  - a dependency fails  
+**Deliverables (still no final output):**
+- **High-Level Architecture** — Structure, components, data flows, logic blocks, narrative beats, etc.
+- **Step-by-Step Plan** — Clear sequence of operations the AI will follow to execute.
+- **Decision Tree With Tradeoffs** — If X → do A, If Y → do B (ensures the AI can handle variability)
+- **Contingency Plan** — What changes if requirements shift, constraints tighten, extra context becomes available, or a dependency fails
 
 > **Goal:** Lock in reasoning before creation.
 
 ---
 
-# **3. Execute Stage — Build According to the Architecture**
+## 3. Execute Stage — Build According to the Architecture
+<a id="execute-stage"></a>
 Now — and only now — the AI produces the requested output.
 
-### **Execution Rules:**
-- Follow the architecture exactly  
-- No improvisation  
-- No skipping steps  
-- If something is unclear → **ask instead of guessing**  
-- Keep explanations separate from deliverables unless requested  
+**Execution Rules:**
+- Follow the architecture exactly
+- No improvisation
+- No skipping steps
+- If something is unclear → **ask instead of guessing**
+- Keep explanations separate from deliverables unless requested
 
 > **Goal:** Clean execution without hallucination or scope drift.
 
 ---
 
-# **4. Audit Stage — Review Like a Senior Engineer**
+## 4. Audit Stage — Review Like a Senior Engineer
+<a id="audit-stage"></a>
 Switch the model into *critic mode*.
 
-### **Deliverables (no rewriting yet):**
-- **Flaws**  
-  Incorrect reasoning, invalid assumptions, technical errors.
-
-- **Ambiguities**  
-  Steps that are unclear or could be interpreted multiple ways.
-
-- **Missing Edge Cases**  
-  What scenarios weren’t covered?
-
-- **Violations of Best Practices**  
-  Coding, architecture, narrative, compliance, design, logic.
-
-- **Specific Improvement Recommendations**  
-  Not “fix wording” but “tighten characterization,” “improve identity-based controls,” etc.
+**Deliverables (no rewriting yet):**
+- **Flaws** — Incorrect reasoning, invalid assumptions, technical errors.
+- **Ambiguities** — Steps that are unclear or could be interpreted multiple ways.
+- **Missing Edge Cases** — What scenarios weren’t covered?
+- **Violations of Best Practices** — Coding, architecture, narrative, compliance, design, logic.
+- **Specific Improvement Recommendations** — Not “fix wording” but “tighten characterization,” “improve identity-based controls,” etc.
 
 > **Goal:** Produce a real peer review, not a polite one.
 
 ---
 
-# **5. Improvement Stage — Apply Fixes & Finalize**
+## 5. Improvement Stage — Apply Fixes & Finalize
+<a id="improvement-stage"></a>
 Now the AI applies the audit feedback.
 
-### **Deliverables:**
-- Revised, improved output  
-- Corrections applied line-by-line or section-by-section  
+**Deliverables:**
+- Revised, improved output
+- Corrections applied line-by-line or section-by-section
 - Optional: added commentary explaining what changed and why
 
 > **Goal:** Produce a final version that meets enterprise or professional standards.
 
 ---
 
-# **6. Optional Enhancement Tools**
+## 6. Optional Enhancement Tools
+<a id="enhancement-tools"></a>
 
-## **A. Mode Switching**
+### A. Mode Switching
 You can instruct the AI to switch modes at any time:
-- *Strategist mode*  
-- *Engineer mode*  
-- *Editor mode*  
-- *Debugger mode*  
-- *Interviewer mode*  
-- *Adversarial reviewer mode*  
+- *Strategist mode*
+- *Engineer mode*
+- *Editor mode*
+- *Debugger mode*
+- *Interviewer mode*
+- *Adversarial reviewer mode*
 
-## **B. Depth Control**
+### B. Depth Control
 Choose the level of detail:
-- **High-level summary**  
-- **Medium depth**  
-- **Deep technical**  
-- **Full production-ready**  
+- **High-level summary**
+- **Medium depth**
+- **Deep technical**
+- **Full production-ready**
 
-## **C. Format Control**
+### C. Format Control
 Common formats:
-- Markdown  
-- tables  
-- bullet lists  
-- diagrams  
-- scripts  
-- architectural diagrams  
-- user stories  
-- PRDs  
-- Terraform-like structure  
-- PowerShell-like structure  
+- Markdown
+- tables
+- bullet lists
+- diagrams
+- scripts
+- architectural diagrams
+- user stories
+- PRDs
+- Terraform-like structure
+- PowerShell-like structure
 
-## **D. Verification Prompts**
+### D. Verification Prompts
 Useful checks:
-- “List all assumptions you made.”  
-- “List any ambiguous parts of the prompt.”  
-- “Explain this solution back to me in your own words.”  
-- “Show where your reasoning is weakest.”  
-- “Run an adversarial test against your own output.”  
+- “List all assumptions you made.”
+- “List any ambiguous parts of the prompt.”
+- “Explain this solution back to me in your own words.”
+- “Show where your reasoning is weakest.”
+- “Run an adversarial test against your own output.”
 
 ---
 
-# **7. Red Flags to Avoid**
-- Vague prompts (“write something good” → garbage)  
-- Asking for the output before the architecture  
-- Changing requirements mid-response  
-- Not providing constraints  
-- Letting the model guess missing details  
-- Not reviewing or auditing the output  
-- Skipping the clarity stage  
+## 7. Red Flags to Avoid
+<a id="red-flags"></a>
+- Vague prompts (“write something good” → garbage)
+- Asking for the output before the architecture
+- Changing requirements mid-response
+- Not providing constraints
+- Letting the model guess missing details
+- Not reviewing or auditing the output
+- Skipping the clarity stage
 
 ---
 
-# **8. Quick Command Prompt**
+## 8. Quick Command Prompt
+<a id="quick-command-prompt"></a>
 
 Copy/paste this to force the workflow:
 

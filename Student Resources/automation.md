@@ -1,28 +1,38 @@
-# Automation Guide using Azure, PowerShell, and Terraform
+# Automation Guide: Azure, PowerShell, and Terraform
 
-## Table of Contents
+> **Automate cloud infrastructure with Azure CLI, PowerShell, and Terraform.**
+
+Streamline processes, reduce errors, and save time by automating Azure resource management. This guide covers setup, core commands, and practical examples.
+
+---
+
+## 📚 Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-    - [Installing Prerequisites](#installing-Prerequisites)
 - [Azure Automation](#azure-automation)
-    - [Setting up Azure CLI](#setting-up-azure-cli)
-    - [Creating a Resource Group](#creating-a-resource-group)
 - [PowerShell Automation](#powershell-automation)
-    - [Installing Azure PowerShell Module](#installing-azure-powershell-module)
-    - [Creating a Virtual Machine](#creating-a-virtual-machine)
 - [Terraform Automation](#terraform-automation)
-    - [Setting up Terraform](#setting-up-terraform)
-    - [Creating Infrastructure with Terraform](#creating-infrastructure-with-terraform)
 - [Examples](#examples)
-    - [Creating a Resource Group](#creating-a-resource-group-1)
-    - [Creating a Virtual Machine](#creating-a-virtual-machine-1)
 - [Conclusion](#conclusion)
+- [Back to Top](#automation-guide-azure-powershell-and-terraform)
+
+---
 
 ## Introduction
-This guide provides an overview of how to automate tasks using Azure, PowerShell, and Terraform. Automation can help streamline processes, reduce errors, and save time.
+
+This guide demonstrates how to automate Azure infrastructure tasks using three powerful tools:
+- **Azure CLI:** Command-line interface for Azure management
+- **PowerShell:** Scripting and automation with Azure PowerShell module
+- **Terraform:** Infrastructure as Code (IaC) for declarative resource management
+
+Each tool has strengths—choose based on your workflow and team expertise.
+
+---
 
 ## Prerequisites
-- Azure Subscription
+
+**You'll need:**
+- Azure subscription (free tier available)
 - Azure CLI installed
 - PowerShell installed
 - Terraform installed
@@ -30,46 +40,59 @@ This guide provides an overview of how to automate tasks using Azure, PowerShell
 ### Installing Prerequisites
 
 #### Azure CLI
-1. Download and install Azure CLI from the [official documentation](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
-2. Verify the installation by running:
+1. Download from [official documentation](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+2. Verify installation:
     ```sh
     az --version
     ```
 
 #### PowerShell
-1. Download and install PowerShell from the [official documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell).
-2. Verify the installation by running:
+1. Download from [official documentation](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
+2. Verify installation:
     ```powershell
     $PSVersionTable.PSVersion
     ```
 
 #### Terraform
-1. Download Terraform from the [official website](https://www.terraform.io/downloads.html).
-2. Install Terraform by following the instructions for your operating system.
-3. Verify the installation by running:
+1. Download from [official website](https://www.terraform.io/downloads.html)
+2. Follow OS-specific installation instructions
+3. Verify installation:
     ```sh
     terraform -v
     ```
 
+---
+
 ## Azure Automation
 
+**Azure CLI** provides cross-platform command-line access to Azure resources.
+
 ### Setting up Azure CLI
-1. Install Azure CLI from the [official documentation](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).
-2. Log in to your Azure account:
+1. Install from [official documentation](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+2. Log in to Azure:
     ```sh
     az login
     ```
+3. Set default subscription (optional):
+    ```sh
+    az account set --subscription "Your-Subscription-Name"
+    ```
 
 ### Creating a Resource Group
-1. Create a resource group using Azure CLI:
-    ```sh
-    az group create --name MyResourceGroup --location eastus
-    ```
+```sh
+az group create --name MyResourceGroup --location eastus
+```
+
+**Tip:** List available locations with `az account list-locations -o table`
+
+---
 
 ## PowerShell Automation
 
+**Azure PowerShell** provides cmdlets for managing Azure resources via PowerShell scripts.
+
 ### Installing Azure PowerShell Module
-1. Open PowerShell and install the Azure module:
+1. Open PowerShell as Administrator and install the Azure module:
     ```powershell
     Install-Module -Name Az -AllowClobber -Force
     ```
@@ -77,34 +100,47 @@ This guide provides an overview of how to automate tasks using Azure, PowerShell
     ```powershell
     Import-Module Az
     ```
+3. Connect to Azure:
+    ```powershell
+    Connect-AzAccount
+    ```
 
 ### Creating a Virtual Machine
-1. Use the following script to create a VM:
-    ```powershell
-    $resourceGroup = "MyResourceGroup"
-    $location = "East US"
-    $vmName = "MyVM"
-    $cred = Get-Credential
+```powershell
+$resourceGroup = "MyResourceGroup"
+$location = "East US"
+$vmName = "MyVM"
+$cred = Get-Credential
 
-    New-AzVm `
-        -ResourceGroupName $resourceGroup `
-        -Name $vmName `
-        -Location $location `
-        -Credential $cred `
-        -ImageName "Win2019Datacenter"
-    ```
+New-AzVm `
+    -ResourceGroupName $resourceGroup `
+    -Name $vmName `
+    -Location $location `
+    -Credential $cred `
+    -ImageName "Win2019Datacenter"
+```
+
+**Tip:** Use `-WhatIf` to preview changes before applying them.
+
+---
 
 ## Terraform Automation
 
+**Terraform** enables Infrastructure as Code (IaC) with declarative configuration files.
+
 ### Setting up Terraform
-1. Download and install Terraform from the [official website](https://www.terraform.io/downloads.html).
-2. Initialize Terraform:
+1. Download from [official website](https://www.terraform.io/downloads.html)
+2. Initialize Terraform in your project directory:
     ```sh
     terraform init
     ```
+3. (Optional) Configure Azure authentication:
+    ```sh
+    az login
+    ```
 
 ### Creating Infrastructure with Terraform
-1. Create a `main.tf` file with the following content:
+1. Create a `main.tf` file:
     ```hcl
     provider "azurerm" {
       features {}
@@ -122,12 +158,22 @@ This guide provides an overview of how to automate tasks using Azure, PowerShell
       resource_group_name = azurerm_resource_group.example.name
     }
     ```
-2. Apply the configuration:
+2. Preview changes:
+    ```sh
+    terraform plan
+    ```
+3. Apply the configuration:
     ```sh
     terraform apply
     ```
 
+**Tip:** Use `terraform destroy` to tear down infrastructure when done.
+
+---
+
 ## Examples
+
+**Side-by-side comparisons** of common tasks across all three tools.
 
 ### Creating a Resource Group
 
@@ -211,4 +257,18 @@ resource "azurerm_virtual_machine" "example" {
 
 
 ## Conclusion
-By using Azure CLI, PowerShell, and Terraform, you can automate the creation and management of Azure resources efficiently. This guide provides a starting point for automating your cloud infrastructure.
+
+By mastering Azure CLI, PowerShell, and Terraform, you can:
+- **Automate** repetitive tasks
+- **Version control** your infrastructure
+- **Reduce errors** through consistency
+- **Scale** operations efficiently
+
+**Next steps:**
+- Explore CI/CD integration with Azure DevOps or GitHub Actions
+- Learn about state management in Terraform
+- Study Azure Resource Manager (ARM) templates as an alternative
+
+---
+
+**Back to [Student Resources](../README.md)**
