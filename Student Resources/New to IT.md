@@ -3,34 +3,35 @@ title: "New to IT: Beginner Resources"
 description: "A curated guide for newcomers to the IT industry. Includes learning platforms, hands-on labs, certifications, communities, and tools to help you start your career in technology."
 tags: ["IT", "Beginner", "Learning", "Career", "Cloud", "Networking", "DevOps"]
 updated: "2025-10-23"
----
 
 # 💻 New to IT Resources 🚀
 
-Welcome to the **New to IT** guide — a curated starting point for anyone beginning a career in **Information Technology**.  
-Whether you’re exploring **cloud computing, cybersecurity, DevOps, or IT support**, this page provides trusted resources to help you learn, practice, and grow.
+<p align="right"><sub>Last updated: February 1, 2026</sub></p>
+
+**A curated starting point for anyone beginning a career in Information Technology.**
+
+<p align="center">
+	<a href="#learning">Learning</a> •
+	<a href="#who">Who</a> •
+	<a href="#how">How to Use</a> •
+	<a href="#platforms">Platforms</a> •
+	<a href="#hands-on">Hands-On</a> •
+	<a href="#youtube">YouTube</a> •
+	<a href="#books">Books</a> •
+	<a href="#labs">Labs</a> •
+	<a href="#certs">Certs</a> •
+	<a href="#communities">Communities</a> •
+	<a href="#version-control">Version Control</a> •
+	<a href="#sandboxing">Sandboxing</a> •
+	<a href="#cloud-devops">Cloud & DevOps</a>
+</p>
 
 ---
 
-## 🧭 Table of Contents
-- [📚 IT Learning Resources](#-it-learning-resources)
-- [🚀 What You’ll Find](#-what-youll-find)
-- [🎯 Who Is This For?](#-who-is-this-for)
-- [🛠 How to Use This Guide](#-how-to-use-this-guide)
-- [📚 Online Learning Platforms](#-online-learning-platforms)
-- [🏗 Hands-On Learning](#-hands-on-learning)
-- [🎥 YouTube Channels](#-youtube-channels)
-- [📖 Recommended Books](#-recommended-books)
-- [🎮 Practice & Certification Labs](#-practice--certification-labs)
-- [📑 Certification Guides](#-certification-guides)
-- [🏛 IT Communities & Forums](#-it-communities--forums)
-- [🔄 Version Control & Collaboration](#-version-control--collaboration)
-- [🛠 Sandboxing & Virtualization](#-sandboxing--virtualization)
-- [🌐 Cloud & DevOps Tools](#-cloud--devops-tools)
 
----
 
 ## 🚀 What You’ll Find
+<a id="learning"></a>
 This guide covers a mix of **learning platforms, tools, labs, books, certifications, and communities** across key technology domains:
 
 - ☁️ **Cloud Computing** (Azure, AWS, Google Cloud)
@@ -44,6 +45,7 @@ This guide covers a mix of **learning platforms, tools, labs, books, certificati
 ---
 
 ## 🎯 Who Is This For?
+<a id="who"></a>
 This collection is perfect for:
 - 🌱 Newcomers looking to **start an IT career**
 - 🧑‍💻 Developers or help desk technicians expanding into cloud or DevOps
@@ -53,6 +55,7 @@ This collection is perfect for:
 ---
 
 ## 🛠 How to Use This Guide
+<a id="how"></a>
 1. **Explore**: Browse categories that align with your learning goals.  
 2. **Learn**: Use the free or affordable training platforms listed below.  
 3. **Practice**: Try hands-on labs and sandbox environments.  
@@ -65,6 +68,7 @@ This collection is perfect for:
 ---
 
 ## 📚 Online Learning Platforms
+<a id="platforms"></a>
 | Platform | Description |
 |-----------|--------------|
 | [Microsoft Learn](https://learn.microsoft.com/) | Free, official training for Azure, M365, and Microsoft technologies |
@@ -78,6 +82,7 @@ This collection is perfect for:
 ---
 
 ## 🏗 Hands-On Learning
+<a id="hands-on"></a>
 | Platform | Focus |
 |-----------|--------|
 | [Azure Sandbox](https://learn.microsoft.com/en-us/training/sandbox/) | Free Microsoft Azure lab environment |
@@ -89,6 +94,7 @@ This collection is perfect for:
 ---
 
 ## 🎥 YouTube Channels
+<a id="youtube"></a>
 | Channel | Focus |
 |----------|--------|
 | [Microsoft Azure](https://www.youtube.com/c/MicrosoftAzure) | Official Azure tutorials |
@@ -101,6 +107,7 @@ This collection is perfect for:
 ---
 
 ## 📖 Recommended Books
+<a id="books"></a>
 | Topic | Title & Author |
 |--------|----------------|
 | ☁️ Cloud | *Azure for Architects* — Ritesh Modi |
@@ -112,6 +119,7 @@ This collection is perfect for:
 ---
 
 ## 🎮 Practice & Certification Labs
+<a id="labs"></a>
 | Platform | Description |
 |-----------|--------------|
 | [Microsoft Learn Labs](https://learn.microsoft.com/en-us/training/) | Free interactive labs for Azure |
@@ -122,6 +130,7 @@ This collection is perfect for:
 ---
 
 ## 📑 Certification Guides
+<a id="certs"></a>
 | Provider | Link |
 |-----------|------|
 | **Microsoft** | [Azure Certification Paths](https://learn.microsoft.com/en-us/certifications/) |
@@ -133,6 +142,7 @@ This collection is perfect for:
 ---
 
 ## 🏛 IT Communities & Forums
+<a id="communities"></a>
 | Platform | Focus |
 |-----------|--------|
 | [Microsoft Q&A](https://learn.microsoft.com/en-us/answers/) | Technical discussions for Microsoft services |
@@ -145,6 +155,7 @@ This collection is perfect for:
 ---
 
 ## 🔄 Version Control & Collaboration
+<a id="version-control"></a>
 | Platform | Focus |
 |-----------|--------|
 | [GitHub Learning Lab](https://lab.github.com/) | Learn Git and GitHub workflows |
@@ -154,6 +165,7 @@ This collection is perfect for:
 ---
 
 ## 🛠 Sandboxing & Virtualization
+<a id="sandboxing"></a>
 | Tool | Description |
 |------|--------------|
 | [Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/) | Built-in Windows virtualization |
@@ -164,6 +176,7 @@ This collection is perfect for:
 ---
 
 ## 🌐 Cloud & DevOps Tools
+<a id="cloud-devops"></a>
 | Tool | Description |
 |------|--------------|
 | [Terraform Learn](https://developer.hashicorp.com/terraform/tutorials) | Infrastructure as Code tutorials |
@@ -173,5 +186,7 @@ This collection is perfect for:
 
 ---
 
-📘 *Last updated: October 2025*  
-💡 *Maintained for continuous learners entering the IT field.*
+
+---
+
+<p align="right"><a href="../README.md">Back to Student Resources</a></p>

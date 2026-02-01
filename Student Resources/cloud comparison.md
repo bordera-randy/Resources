@@ -1,6 +1,49 @@
-# Cloud Services Comparison Cheat Sheet
+<!--
+---
+title: "Cloud Services Comparison: Azure vs AWS vs GCP"
+description: "Comprehensive comparison of Azure, AWS, and Google Cloud Platform services across compute, storage, databases, networking, security, DevOps, and more."
+tags: ["Cloud", "Azure", "AWS", "GCP", "Comparison", "Services"]
+updated: "2026-02-01"
+---
+-->
+# ☁️ Cloud Services Comparison Guide
 
-## ☁️ Core Compute Services
+> **Quick reference for Azure, AWS, and Google Cloud Platform service equivalents.**
+
+This guide provides a comprehensive side-by-side comparison of cloud services across the major cloud providers: **Microsoft Azure**, **Amazon Web Services (AWS)**, and **Google Cloud Platform (GCP)**.
+
+**Use this guide to:**
+- Understand equivalent services across cloud providers
+- Migrate workloads from one cloud to another
+- Plan multi-cloud architectures
+- Compare features and capabilities
+- Make informed technology decisions
+
+---
+
+## 📚 Table of Contents
+
+- [☁️ Cloud Services Comparison Guide](#️-cloud-services-comparison-guide)
+  - [📚 Table of Contents](#-table-of-contents)
+  - [📦 Containers \& Kubernetes](#-containers--kubernetes)
+  - [🗄️ Storage Services](#️-storage-services)
+  - [🧠 Databases (Managed)](#-databases-managed)
+    - [Relational](#relational)
+    - [NoSQL](#nosql)
+  - [🌐 Networking](#-networking)
+  - [🔐 Identity, Security \& Governance](#-identity-security--governance)
+  - [⚙️ DevOps \& Automation](#️-devops--automation)
+  - [📊 Monitoring, Logging \& Observability](#-monitoring-logging--observability)
+  - [📩 Messaging \& Integration](#-messaging--integration)
+  - [🧪 Analytics \& Big Data](#-analytics--big-data)
+  - [🧠 AI \& Machine Learning](#-ai--machine-learning)
+  - [🌐 Application Platform / PaaS (Web Apps \& APIs)](#-application-platform--paas-web-apps--apis)
+  - [🎯 Key Considerations](#-key-considerations)
+    - [When Choosing a Cloud Provider](#when-choosing-a-cloud-provider)
+    - [Pricing Models](#pricing-models)
+    - [Hybrid \& Multi-Cloud Strategies](#hybrid--multi-cloud-strategies)
+
+---
 
 | Capability                   | Microsoft Azure                       | Amazon Web Services         | Google Cloud Platform   |
 | ---------------------------- | ------------------------------------- | --------------------------- | ----------------------- |
@@ -148,9 +191,51 @@
 
 ## 🌐 Application Platform / PaaS (Web Apps & APIs)
 
-| Capability             | Microsoft Azure          | Amazon Web Services        | Google Cloud Platform |
-| ---------------------- | ------------------------ | -------------------------- | --------------------- |
-| Core PaaS Web Hosting  | Azure App Service        | Elastic Beanstalk          | App Engine            |
-| Containerized Web Apps | App Service (Containers) | Elastic Beanstalk (Docker) | App Engine Flex       |
-| Serverless Web Apps    | Azure Functions          | Lambda + API Gateway       | Cloud Functions       |
-| Modern PaaS Containers | Azure Container Apps     | App Runner                 | Cloud Run             |
+---
+
+## 🎯 Key Considerations
+
+### When Choosing a Cloud Provider
+
+**Azure Strengths:**
+- Best for Microsoft ecosystem (Office 365, Dynamics, SQL Server)
+- Strong hybrid cloud support (Azure Stack, Arc)
+- Excellent for enterprise customers with existing Microsoft agreements
+- Great DevOps integration (GitHub, Azure DevOps)
+- Strong compliance certifications (FedRAMP, etc.)
+
+**AWS Strengths:**
+- Largest market share and most mature services
+- Broadest range of services and features
+- Most third-party integrations and marketplace
+- Strong in data and analytics
+- Best for startups and scale-ups
+
+**GCP Strengths:**
+- Best for data analytics and BigQuery
+- Strong in AI/ML and machine learning
+- Most innovative in emerging technologies
+- Best Kubernetes support (created by Google)
+- Good pricing for compute and storage
+
+### Pricing Models
+
+All three providers offer:
+- **On-demand:** Pay-as-you-go hourly pricing
+- **Discounts:** Committed use discounts (1-3 years)
+- **Spot/Preemptible:** Up to 90% discount for interruptible workloads
+- **Free tiers:** Credits and always-free services
+
+Pricing varies by region and service. Use pricing calculators to estimate costs.
+
+### Hybrid & Multi-Cloud Strategies
+
+- **Azure:** Azure Stack (on-premises), Azure Arc (any infrastructure)
+- **AWS:** AWS Outposts (on-premises), AWS Local Zones
+- **GCP:** Anthos (on-premises), Google Distributed Cloud
+
+All three providers support multi-cloud and hybrid architectures with proper planning and tools.
+
+---
+
+**Back to [Student Resources](../README.md)**

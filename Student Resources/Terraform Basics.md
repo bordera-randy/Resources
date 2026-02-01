@@ -1,25 +1,128 @@
-# Terraform Basics
+# 🏗️ Terraform Basics
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Configuration](#configuration)
-4. [Basic Commands](#basic-commands)
-5. [Examples](#examples)
-6. [Tips](#tips)
-7. [Resources](#resources)
+<p align="right"><sub>Last updated: February 1, 2026</sub></p>
 
-## Introduction
-Terraform is an open-source infrastructure as code software tool created by HashiCorp. It allows users to define and provision data center infrastructure using a high-level configuration language.
+**A practical introduction to Terraform for beginners—Infrastructure as Code fundamentals.**
 
-## Installation
-To install Terraform, follow these steps:
-1. Download the appropriate package for your operating system from the [Terraform downloads page](https://www.terraform.io/downloads.html).
-2. Unzip the package and place the `terraform` binary in a directory included in your system's `PATH`.
+<p align="center">
+  <a href="#intro">Intro</a> •
+  <a href="#install">Install</a> •
+  <a href="#config">Configuration</a> •
+  <a href="#commands">Commands</a> •
+  <a href="#examples">Examples</a> •
+  <a href="#best-practices">Best Practices</a> •
+  <a href="#resources">Resources</a>
+</p>
 
-## Configuration
-Create a new directory for your Terraform configuration files. Inside this directory, create a file named `main.tf` with the following content:
+---
 
+## 📖 What is Terraform?
+<a id="intro"></a>
+
+Terraform is an open-source **Infrastructure as Code (IaC)** tool created by HashiCorp. It allows you to define and provision cloud infrastructure using declarative configuration files.
+
+**Key Benefits:**
+- Define infrastructure in version-controllable code
+- Plan changes before applying them
+- Manage infrastructure across AWS, Azure, Google Cloud, and more
+- Enable team collaboration and reproducibility
+
+---
+
+## ⚙️ Installation
+<a id="install"></a>
+
+1. Download the latest version from the [Terraform downloads page](https://www.terraform.io/downloads).
+2. Extract the binary and add it to your system `PATH`.
+3. Verify installation:
+
+```bash
+terraform --version
+```
+
+## 📝 Configuration Structure
+<a id="config"></a>
+
+### File Organization
+Create a working directory and add these standard files:
+
+```
+project/
+├── main.tf           # Primary configuration
+├── variables.tf      # Input variables
+├── outputs.tf        # Output values
+├── terraform.tfvars  # Variable values
+└── .gitignore        # Exclude sensitive files
+```
+
+### Basic Example
+
+```hcl
+# main.tf
+terraform {
+  required_version = ">= 1.0"
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = var.aws_region
+}
+
+resource "aws_instance" "example" {
+  ami           = data.aws_ami.ubuntu.id
+  instance_type = var.instance_type
+
+  tags = {
+    Name = var.instance_name
+  }
+}
+```
+
+```hcl
+# variables.tf
+variable "aws_region" {
+  description = "AWS region"
+  type        = string
+  default     = "us-west-2"
+}
+
+variable "instance_type" {
+  description = "EC2 instance type"
+  type        = string
+  default     = "t2.micro"
+}
+
+variable "instance_name" {
+  description = "Name of the instance"
+  type        = string
+}
+```
+
+---
+
+## 🎯 Core Commands
+<a id="commands"></a>
+
+| Command | Description |
+|---------|-------------|
+| `terraform init` | Initialize working directory, download providers |
+| `terraform plan` | Preview changes without applying them |
+| `terraform apply` | Apply configuration changes to cloud |
+| `terraform destroy` | Destroy all managed infrastructure |
+| `terraform fmt` | Format code to standard style |
+| `terraform validate` | Check configuration syntax |
+| `terraform import` | Import existing resources into state |
+| `terraform state` | Manage Terraform state file |
+
+## 📋 Practical Examples
+<a id="examples"></a>
+
+### Example 1: AWS EC2 Instance
 ```hcl
 provider "aws" {
     region = "us-west-2"
@@ -31,37 +134,35 @@ resource "aws_instance" "example" {
 }
 ```
 
-## Basic Commands
-- `terraform init`: Initialize a new or existing Terraform configuration.
-- `terraform plan`: Create an execution plan.
-- `terraform apply`: Apply the changes required to reach the desired state of the configuration.
-- `terraform destroy`: Destroy the Terraform-managed infrastructure.
-
-## Examples
-### Example 1: Creating an AWS EC2 Instance
+### Example 2: AWS S3 Bucket
 ```hcl
-provider "aws" {
-    region = "us-west-2"
-}
-
-resource "aws_instance" "example" {
-    ami           = "ami-0c55b159cbfafe1f0"
-    instance_type = "t2.micro"
-}
-```
-
-### Example 2: Creating an S3 Bucket
-```hcl
-provider "aws" {
-    region = "us-west-2"
-}
-
 resource "aws_s3_bucket" "example" {
-    bucket = "my-unique-bucket-name"
-    acl    = "private"
+  bucket = "my-unique-bucket-name"
+
+  tags = {
+    Environment = "production"
+  }
+}
+
+resource "aws_s3_bucket_versioning" "example" {
+  bucket = aws_s3_bucket.example.id
+  versioning_configuration {
+    status = "Enabled"
+  }
+}
+
+resource "aws_s3_bucket_server_side_encryption_configuration" "example" {
+  bucket = aws_s3_bucket.example.id
+
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm = "AES256"
+    }
+  }
 }
 ```
-### Example 3: Creating an Azure Virtual Machine
+
+### Example 3: Azure Virtual Machine
 ```hcl
 provider "azurerm" {
     features {}
@@ -131,7 +232,7 @@ resource "azurerm_virtual_machine" "example" {
 }
 ```
 
-### Example 4: Creating a Google Cloud Storage Bucket
+### Example 4: Google Cloud Storage Bucket
 ```hcl
 provider "google" {
     project = "my-gcp-project"
@@ -144,12 +245,35 @@ resource "google_storage_bucket" "example" {
 }
 ```
 
-## Tips
-- Always use version control for your Terraform configuration files.
-- Regularly run `terraform plan` to check for potential changes before applying them.
-- Use modules to organize and reuse your Terraform code.
+---
 
-## Resources
-- [Terraform Documentation](https://www.terraform.io/docs/index.html)
-- [HashiCorp Learn](https://learn.hashicorp.com/terraform)
-- [Terraform GitHub Repository](https://github.com/hashicorp/terraform)
+## 🎓 Best Practices
+<a id="best-practices"></a>
+
+- ✅ **Use version control** — commit all Terraform files to Git
+- ✅ **Separate state files** — use remote backends for team collaboration
+- ✅ **Plan before apply** — always review `terraform plan` output
+- ✅ **Use variables** — avoid hardcoding values; use `variables.tf`
+- ✅ **Organize with modules** — break complex configurations into reusable modules
+- ✅ **Name resources clearly** — use consistent naming conventions
+- ✅ **Add comments** — document complex logic and resource purposes
+- ✅ **Enable state locking** — prevent concurrent modifications
+- ✅ **Use `terraform.tfvars`** — keep secrets out of version control
+- ✅ **Validate early** — run `terraform validate` and `terraform fmt` before committing
+
+---
+
+## 📚 Resources
+<a id="resources"></a>
+
+- [Terraform Official Docs](https://www.terraform.io/docs)
+- [HashiCorp Learn Tutorials](https://learn.hashicorp.com/terraform)
+- [Terraform Registry](https://registry.terraform.io/) — Providers, modules, and resources
+- [Terraform GitHub](https://github.com/hashicorp/terraform)
+- [Azure Terraform Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+- [AWS Terraform Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+- [Google Cloud Terraform Provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
+
+---
+
+<p align="right"><a href="../README.md">Back to Student Resources</a></p>

@@ -1,7 +1,7 @@
 
 # 🎓 Resources Repository
 
-<p align="right"><sub>Last updated: January 31, 2026</sub></p>
+<p align="right"><sub>Last updated: February 1, 2026</sub></p>
 
 Welcome to the **Resources Repository** — a curated collection of study materials, guides, and hands-on resources for cloud and IT professionals.
 This repository is designed for **students, developers, and engineers** preparing for certifications or expanding their technical expertise.
@@ -24,6 +24,8 @@ This repository is designed for **students, developers, and engineers** preparin
     - [Microsoft Azure Certifications](#microsoft-azure-certifications)
     - [Security \& Compliance Certifications](#security--compliance-certifications)
     - [PowerShell Training](#powershell-training)
+    - [Terraform Training](#terraform-training)
+    - [Exam \& Supplementary Guides](#exam--supplementary-guides)
   - [🤖 AI Resources](#-ai-resources)
       - [AI Resources by Use Case](#ai-resources-by-use-case)
   - [🤝 Contributing](#-contributing)
@@ -101,8 +103,36 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Level | Description | File | Tags |
 |-------|-------------|------|------|
-| 🪄 **Basic PowerShell** | Core command-line and scripting fundamentals | ⏳ Coming Soon | [PowerShell] [Beginner] |
-| ⚙️ **Advanced PowerShell** | Scripting automation and Azure integration | ⏳ Coming Soon | [PowerShell] [Advanced] [Azure] |
+| 🪄 **PowerShell Basics** | Core command-line and scripting fundamentals | [PowerShell-Basics.md](Student%20Resources/PowerShell-Basics.md) | [PowerShell] [Beginner] |
+| ⚙️ **Advanced PowerShell** | Scripting automation and Azure integration | [Advanced PowerShell.md](Student%20Resources/Advanced%20PowerShell.md) | [PowerShell] [Advanced] [Azure] |
+
+<p align="right"><a href="#-overview">Back to Top</a></p>
+
+---
+
+### Terraform Training
+
+> **Summary:** Infrastructure as Code (IaC) learning from fundamentals through advanced topics and enterprise patterns.
+
+| Level | Description | File | Tags |
+|-------|-------------|------|------|
+| 📚 **Terraform Basics** | Getting started with Terraform, providers, and simple deployments | [Terraform Basics.md](Student%20Resources/Terraform%20Basics.md) | [Terraform] [IaC] [Beginner] |
+| 🚀 **Terraform Advanced** | Modules, workspaces, state management, testing, and security | [Terraform Advanced.md](Student%20Resources/Terraform%20Advanced.md) | [Terraform] [IaC] [Advanced] |
+| 📖 **Terraform Resources** | Comprehensive reference for providers, modules, and multi-cloud examples | [Terraform-Resources.md](Student%20Resources/Terraform-Resources.md) | [Terraform] [IaC] [Reference] |
+
+<p align="right"><a href="#-overview">Back to Top</a></p>
+
+---
+
+### Exam & Supplementary Guides
+
+> **Summary:** Study guides for additional certifications and supplementary learning resources.
+
+| Topic | Description | File | Tags |
+|-------|-------------|------|------|
+| **Security Fundamentals** | Microsoft Security Fundamentals exam (SC-900) | [sc900.md](Student%20Resources/sc900.md) | [Security] [Fundamental] |
+| **Exam Tips & Strategies** | General exam preparation strategies and best practices | [Exam Tips.md](Student%20Resources/Exam%20Tips.md) | [Exams] [Study] |
+| **Automation & Scripting** | Automation concepts, scripting best practices, and implementations | [automation.md](Student%20Resources/automation.md) | [Automation] [Scripting] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 

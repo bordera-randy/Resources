@@ -1,10 +1,33 @@
-# PowerShell Basics
 
-A Practical Introduction for Beginners and a Reference Guide for Daily Use
+# ⚡ PowerShell Basics
+
+<p align="right"><sub>Last updated: February 1, 2026</sub></p>
+
+**A practical introduction and daily reference for PowerShell beginners.**
+
+<p align="center">
+    <a href="#what">What is PowerShell?</a> •
+    <a href="#install">Install</a> •
+    <a href="#cmdlets">Cmdlets</a> •
+    <a href="#filesystem">File System</a> •
+    <a href="#objects">Objects</a> •
+    <a href="#variables">Variables</a> •
+    <a href="#scripts">Scripts</a> •
+    <a href="#control">Control Flow</a> •
+    <a href="#functions">Functions</a> •
+    <a href="#errors">Error Handling</a> •
+    <a href="#modules">Modules</a> •
+    <a href="#external">External Systems</a> •
+    <a href="#best">Best Practices</a> •
+    <a href="#tools">Tools</a> •
+    <a href="#cheat">Cheat Sheet</a>
+</p>
 
 ---
 
+
 ## 📌 What Is PowerShell?
+<a id="what"></a>
 
 PowerShell is a cross-platform automation and configuration shell built by Microsoft. It combines:
 - An interactive command-line interface
@@ -15,7 +38,10 @@ PowerShell is designed for automation, system management, and repeatable workflo
 
 ---
 
+
 ## 1. Getting Started
+<a id="install"></a>
+
 
 ### 1.1 Installing PowerShell
 
@@ -36,7 +62,9 @@ PowerShell is designed for automation, system management, and repeatable workflo
 
 ---
 
+
 ## 2. Understanding PowerShell
+<a id="cmdlets"></a>
 
 ### 2.1 Cmdlets
 
@@ -70,7 +98,9 @@ Update-Help
 
 ---
 
+
 ## 3. Navigating the File System
+<a id="filesystem"></a>
 
 PowerShell treats the file system like a drive.
 
@@ -91,7 +121,9 @@ Get-ChildItem -Recurse
 
 ---
 
+
 ## 4. Working With Objects
+<a id="objects"></a>
 
 Unlike shells that return plain text, PowerShell returns objects.
 
@@ -119,7 +151,9 @@ Get-Process |
 
 ---
 
+
 ## 5. Variables & Data Types
+<a id="variables"></a>
 
 ### 5.1 Declaring Variables
 
@@ -139,7 +173,9 @@ Use `$null` for empty or missing values.
 
 ---
 
+
 ## 6. Writing Scripts
+<a id="scripts"></a>
 
 PowerShell scripts have the `.ps1` extension.
 
@@ -159,7 +195,9 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ---
 
+
 ## 7. Control Flow
+<a id="control"></a>
 
 ### 7.1 If/Else
 
@@ -193,7 +231,9 @@ while ($x -lt 10) {
 
 ---
 
+
 ## 8. Functions
+<a id="functions"></a>
 
 Functions make your code reusable.
 
@@ -214,7 +254,9 @@ Get-Greeting -Name "Randy"
 
 ---
 
+
 ## 9. Error Handling
+<a id="errors"></a>
 
 ### 9.1 Try/Catch
 
@@ -235,7 +277,9 @@ throw "Something went wrong"
 
 ---
 
+
 ## 10. Modules
+<a id="modules"></a>
 
 Modules extend PowerShell's capabilities.
 
@@ -254,7 +298,9 @@ Import-Module Az
 
 ---
 
+
 ## 11. Working With External Systems
+<a id="external"></a>
 
 PowerShell integrates easily with REST APIs, cloud platforms, and services.
 
@@ -266,7 +312,9 @@ Invoke-RestMethod -Uri "https://api.github.com/repos/PowerShell/PowerShell"
 
 ---
 
+
 ## 12. Best Practices
+<a id="best"></a>
 
 - Use Verb-Noun naming for functions.
 - Validate inputs (`[int]`, `[string]`, etc.).
@@ -279,7 +327,9 @@ Invoke-RestMethod -Uri "https://api.github.com/repos/PowerShell/PowerShell"
 
 ---
 
+
 ## 13. Helpful Tools
+<a id="tools"></a>
 
 - VS Code with the PowerShell extension
 - Git + GitHub for source control
@@ -288,7 +338,9 @@ Invoke-RestMethod -Uri "https://api.github.com/repos/PowerShell/PowerShell"
 
 ---
 
+
 ## 14. Quick Reference Cheat Sheet
+<a id="cheat"></a>
 
 ### Common Cmdlets
 
@@ -313,8 +365,9 @@ pwd    # Get-Location
 
 ---
 
-## Conclusion
 
-You now have a practical introduction to PowerShell and a solid reference for everyday scripting. For deeper learning, refer to the official documentation:
+---
 
-https://learn.microsoft.com/powershell
+<p align="right"><a href="../README.md">Back to Student Resources</a></p>
+
+For deeper learning, see the official docs: https://learn.microsoft.com/powershell
