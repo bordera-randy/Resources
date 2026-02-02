@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**What file needs to be updated? **  
+**What file needs to be updated?**  
 
 
-**Will you be providing the updated information? ** 
+**Will you be providing the updated information?** 
 
-** What is outdated about it? **
+**What is outdated about it?**
