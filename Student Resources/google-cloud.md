@@ -197,6 +197,4 @@
 
 ---
 
----
-
 <p align="right"><a href="../README.md">Back to Student Resources</a></p>
