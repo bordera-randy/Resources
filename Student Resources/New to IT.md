@@ -186,6 +186,11 @@ This collection is perfect for:
 
 ---
 
+## 🏢 Business Tools for IT Professionals
+<a id="business-tools"></a>
+| Tool | Description |
+|------|--------------|
+| [Qvert](https://qvert.net/) | Built for small businesses: WiFi join, call, reviews, meetings, menus, payments — plus your original tool suite |
 
 ---
 

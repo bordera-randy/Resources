@@ -14,7 +14,6 @@ This repository is designed for **students, developers, and engineers** preparin
 
 ---
 
-
 ## 📘 Table of Contents
 - [🎓 Resources Repository](#-resources-repository)
   - [📘 Table of Contents](#-table-of-contents)
