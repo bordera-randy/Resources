@@ -1,13 +1,14 @@
 
 # 🎓 Resources Repository
 
-<p align="right"><sub>Last updated: February 1, 2026</sub></p>
+<p align="right"><sub>Last updated: February 4, 2026</sub></p>
 
 Welcome to the **Resources Repository** — a curated collection of study materials, guides, and hands-on resources for cloud and IT professionals.
 This repository is designed for **students, developers, and engineers** preparing for certifications or expanding their technical expertise.
 
 <p align="center">
   <a href="#microsoft-azure-certifications">Jump to Azure Certs</a> •
+  <a href="#google-cloud-certifications">Jump to GCP Certs</a> •
   <a href="#ai-resources">Jump to AI Guides</a> •
   <a href="#cloud--platform-resources">Cloud Resources</a>
 </p>
@@ -22,6 +23,7 @@ This repository is designed for **students, developers, and engineers** preparin
   - [🧑‍🎓 Student \& Certification Guides](#-student--certification-guides)
     - [Microsoft Azure Certifications](#microsoft-azure-certifications)
       - [Practice Tests \& Hands-On Labs](#practice-tests--hands-on-labs)
+    - [Google Cloud Certifications](#google-cloud-certifications)
     - [Security \& Compliance Certifications](#security--compliance-certifications)
     - [PowerShell Training](#powershell-training)
     - [Terraform Training](#terraform-training)
@@ -37,7 +39,7 @@ This repository is designed for **students, developers, and engineers** preparin
 
 ## 🧭 Overview
 This repository provides a growing library of technical and certification resources.  
-You’ll find organized, high-quality guides for **Azure**, **AWS**, **Terraform**, **F5**, and foundational IT learning paths.
+You’ll find organized, high-quality guides for **Azure**, **AWS**, **Google Cloud**, **Terraform**, **F5**, and foundational IT learning paths.
 
 Each resource is structured in Markdown for easy navigation and consistent readability.
 
@@ -52,6 +54,7 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 |-------|-------------|------|
 | [Microsoft Resources](Student%20Resources/Microsoft.md) | Official Microsoft learning paths, tools, and docs | [Azure] [Beginner] |
 | [AWS Resources](Student%20Resources/AWS.md) | AWS certification and hands-on practice resources | [AWS] [Beginner] |
+| [Google Cloud Resources](Student%20Resources/google-cloud.md) | Google Cloud Platform documentation, tools, and learning paths | [GCP] [Beginner] |
 | [Terraform Resources](Student%20Resources/Terraform-Resources.md) | Infrastructure as Code (IaC) guides and module examples | [Terraform] [IaC] |
 | [F5 Resources](Student%20Resources/F5%20Resources.md) | F5 load balancing and network automation references | [F5] [Networking] |
 | [New to IT](Student%20Resources/New%20to%20IT.md) | Entry-level roadmap for newcomers to IT | [Beginner] [IT] |
@@ -84,6 +87,22 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | **AZ-900** | [50-Question Practice Test](practice%20tests/az900-practice-test.md) | [5 Hands-On Labs](labs/az900-labs.md) | [Practice] [Labs] |
 | **AZ-104** | [50-Question Practice Test](practice%20tests/az104-practice-test.md) | [5 Hands-On Labs](labs/az104-labs.md) | [Practice] [Labs] |
 | **AZ-700** | [50-Question Practice Test](practice%20tests/az700-practice-test.md) | [5 Hands-On Labs](labs/az700-labs.md) | [Practice] [Labs] |
+
+<p align="right"><a href="#-overview">Back to Top</a></p>
+
+---
+
+
+### Google Cloud Certifications
+
+> **Summary:** Official Google Cloud certification study guides and exam prep for cloud engineers, architects, and data professionals.
+
+| Exam Code | Certification Title | File | Tags |
+|-----------|---------------------|------|------|
+| **Associate** | Associate Cloud Engineer | [google-Associate-Cloud-Engineer.md](Student%20Resources/google-Associate-Cloud-Engineer.md) | [GCP] [Associate] |
+| **Professional** | Professional Cloud Architect | [google-Professional-Cloud-Architect.md](Student%20Resources/google-Professional-Cloud-Architect.md) | [GCP] [Architect] |
+| **Professional** | Professional Cloud DevOps Engineer | [google-Professional-Cloud-DevOps-Engineer.md](Student%20Resources/google-Professional-Cloud-DevOps-Engineer.md) | [GCP] [DevOps] |
+| **Professional** | Professional Data Engineer | [google-Professional-Data-Engineer.md](Student%20Resources/google-Professional-Data-Engineer.md) | [GCP] [Data] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
