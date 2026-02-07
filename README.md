@@ -1,7 +1,7 @@
 
 # 🎓 Resources Repository
 
-<p align="right"><sub>Last updated: February 4, 2026</sub></p>
+<p align="right"><sub>Last updated: February 6, 2026</sub></p>
 
 Welcome to the **Resources Repository** — a curated collection of study materials, guides, and hands-on resources for cloud and IT professionals.
 This repository is designed for **students, developers, and engineers** preparing for certifications or expanding their technical expertise.
@@ -25,6 +25,8 @@ This repository is designed for **students, developers, and engineers** preparin
       - [Practice Tests \& Hands-On Labs](#practice-tests--hands-on-labs)
     - [Google Cloud Certifications](#google-cloud-certifications)
     - [Security \& Compliance Certifications](#security--compliance-certifications)
+    - [New to IT](#new-to-it)
+    - [Admin Tools](#admin-tools)
     - [PowerShell Training](#powershell-training)
     - [Terraform Training](#terraform-training)
     - [DevOps \& CI/CD](#devops--cicd)
@@ -52,13 +54,13 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Topic | Description | Tags |
 |-------|-------------|------|
-| [Microsoft Resources](Student%20Resources/Microsoft.md) | Official Microsoft learning paths, tools, and docs | [Azure] [Beginner] |
-| [AWS Resources](Student%20Resources/AWS.md) | AWS certification and hands-on practice resources | [AWS] [Beginner] |
-| [Google Cloud Resources](Student%20Resources/google-cloud.md) | Google Cloud Platform documentation, tools, and learning paths | [GCP] [Beginner] |
-| [Terraform Resources](Student%20Resources/Terraform-Resources.md) | Infrastructure as Code (IaC) guides and module examples | [Terraform] [IaC] |
-| [F5 Resources](Student%20Resources/F5%20Resources.md) | F5 load balancing and network automation references | [F5] [Networking] |
-| [New to IT](Student%20Resources/New%20to%20IT.md) | Entry-level roadmap for newcomers to IT | [Beginner] [IT] |
-| [Cloud Comparison](Student%20Resources/cloud%20comparison.md) | Azure vs AWS vs GCP service comparison | [Cloud] [Comparison] |
+| [Microsoft Resources](Student%20Resources/Cloud/Microsoft.md) | Official Microsoft learning paths, tools, and docs | [Azure] [Beginner] |
+| [AWS Resources](Student%20Resources/Cloud/AWS.md) | AWS certification and hands-on practice resources | [AWS] [Beginner] |
+| [Google Cloud Resources](Student%20Resources/Cloud/google-cloud.md) | Google Cloud Platform documentation, tools, and learning paths | [GCP] [Beginner] |
+| [Terraform Resources](Student%20Resources/Terraform/Terraform-Resources.md) | Infrastructure as Code (IaC) guides and module examples | [Terraform] [IaC] |
+| [F5 Resources](Student%20Resources/Cloud/F5%20Resources.md) | F5 load balancing and network automation references | [F5] [Networking] |
+| [New to IT](Student%20Resources/Fundamentals/New%20to%20IT.md) | Entry-level roadmap for newcomers to IT | [Beginner] [IT] |
+| [Cloud Comparison](Student%20Resources/Cloud/cloud%20comparison.md) | Azure vs AWS vs GCP service comparison | [Cloud] [Comparison] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -73,12 +75,12 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Exam Code | Certification Title | File | Tags |
 |-----------|---------------------|------|------|
-| **AZ-900** | Azure Fundamentals | [az900.md](Student%20Resources/az900.md) | [Azure] [Fundamental] |
-| **AZ-104** | Azure Administrator Associate | [az104.md](Student%20Resources/az104.md) | [Azure] [Admin] |
-| **AZ-305** | Azure Solutions Architect Expert | [az305.md](Student%20Resources/az305.md) | [Azure] [Architect] |
-| **AZ-500** | Azure Security Engineer Associate | [az500.md](Student%20Resources/az500.md) | [Azure] [Security] |
-| **AZ-700** | Azure Network Engineer Associate | [az700.md](Student%20Resources/az700.md) | [Azure] [Networking] |
-| **AZ-400** | DevOps Engineer Expert | [az400.md](Student%20Resources/az400.md) | [Azure] [DevOps] |
+| **AZ-900** | Azure Fundamentals | [az900.md](Student%20Resources/Certifications/Azure/az900.md) | [Azure] [Fundamental] |
+| **AZ-104** | Azure Administrator Associate | [az104.md](Student%20Resources/Certifications/Azure/az104.md) | [Azure] [Admin] |
+| **AZ-305** | Azure Solutions Architect Expert | [az305.md](Student%20Resources/Certifications/Azure/az305.md) | [Azure] [Architect] |
+| **AZ-500** | Azure Security Engineer Associate | [az500.md](Student%20Resources/Certifications/Azure/az500.md) | [Azure] [Security] |
+| **AZ-700** | Azure Network Engineer Associate | [az700.md](Student%20Resources/Certifications/Azure/az700.md) | [Azure] [Networking] |
+| **AZ-400** | DevOps Engineer Expert | [az400.md](Student%20Resources/Certifications/Azure/az400.md) | [Azure] [DevOps] |
 
 #### Practice Tests & Hands-On Labs
 
@@ -99,10 +101,10 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Exam Code | Certification Title | File | Tags |
 |-----------|---------------------|------|------|
-| **Associate** | Associate Cloud Engineer | [google-Associate-Cloud-Engineer.md](Student%20Resources/google-Associate-Cloud-Engineer.md) | [GCP] [Associate] |
-| **Professional** | Professional Cloud Architect | [google-Professional-Cloud-Architect.md](Student%20Resources/google-Professional-Cloud-Architect.md) | [GCP] [Architect] |
-| **Professional** | Professional Cloud DevOps Engineer | [google-Professional-Cloud-DevOps-Engineer.md](Student%20Resources/google-Professional-Cloud-DevOps-Engineer.md) | [GCP] [DevOps] |
-| **Professional** | Professional Data Engineer | [google-Professional-Data-Engineer.md](Student%20Resources/google-Professional-Data-Engineer.md) | [GCP] [Data] |
+| **Associate** | Associate Cloud Engineer | [google-Associate-Cloud-Engineer.md](Student%20Resources/Certifications/GCP/google-Associate-Cloud-Engineer.md) | [GCP] [Associate] |
+| **Professional** | Professional Cloud Architect | [google-Professional-Cloud-Architect.md](Student%20Resources/Certifications/GCP/google-Professional-Cloud-Architect.md) | [GCP] [Architect] |
+| **Professional** | Professional Cloud DevOps Engineer | [google-Professional-Cloud-DevOps-Engineer.md](Student%20Resources/Certifications/GCP/google-Professional-Cloud-DevOps-Engineer.md) | [GCP] [DevOps] |
+| **Professional** | Professional Data Engineer | [google-Professional-Data-Engineer.md](Student%20Resources/Certifications/GCP/google-Professional-Data-Engineer.md) | [GCP] [Data] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -115,10 +117,34 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Exam Code | Certification Title | File | Tags |
 |-----------|---------------------|------|------|
-| **SC-100** | Cybersecurity Architect Expert | [sc100.md](Student%20Resources/sc100.md) | [Security] [Architect] |
-| **SC-200** | Security Operations Analyst Associate | [sc200.md](Student%20Resources/sc200.md) | [Security] [SOC] |
-| **SC-300** | Identity and Access Administrator Associate | [sc300.md](Student%20Resources/sc300.md) | [Security] [Identity] |
-| **SC-400** | Information Protection Administrator Associate | [sc400.md](Student%20Resources/sc400.md) | [Security] [Compliance] [Protection] |
+| **SC-100** | Cybersecurity Architect Expert | [sc100.md](Student%20Resources/Certifications/Security/sc100.md) | [Security] [Architect] |
+| **SC-200** | Security Operations Analyst Associate | [sc200.md](Student%20Resources/Certifications/Security/sc200.md) | [Security] [SOC] |
+| **SC-300** | Identity and Access Administrator Associate | [sc300.md](Student%20Resources/Certifications/Security/sc300.md) | [Security] [Identity] |
+| **SC-400** | Information Protection Administrator Associate | [sc400.md](Student%20Resources/Certifications/Security/sc400.md) | [Security] [Compliance] [Protection] |
+
+<p align="right"><a href="#-overview">Back to Top</a></p>
+
+---
+
+### New to IT
+
+> **Summary:** Beginner-friendly roadmap, core concepts, and practical starting points for IT careers.
+
+| Topic | Description | File | Tags |
+|-------|-------------|------|------|
+| **New to IT** | Entry-level roadmap, foundational skills, and learning path | [New to IT.md](Student%20Resources/Fundamentals/New%20to%20IT.md) | [Beginner] [IT] [Foundations] |
+
+<p align="right"><a href="#-overview">Back to Top</a></p>
+
+---
+
+### Admin Tools
+
+> **Summary:** Everyday admin tools and quick links for DNS, IP, SSL, API, and troubleshooting tasks.
+
+| Topic | Description | File | Tags |
+|-------|-------------|------|------|
+| **Admin Tools** | Link hub for common admin tasks and diagnostics | [admin-tools.md](Student%20Resources/Admin/admin-tools.md) | [Admin] [Tools] [Operations] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -131,8 +157,8 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Level | Description | File | Tags |
 |-------|-------------|------|------|
-| 🪄 **PowerShell Basics** | Core command-line and scripting fundamentals | [PowerShell-Basics.md](Student%20Resources/PowerShell-Basics.md) | [PowerShell] [Beginner] |
-| ⚙️ **Advanced PowerShell** | Scripting automation and Azure integration | [Advanced PowerShell.md](Student%20Resources/Advanced%20PowerShell.md) | [PowerShell] [Advanced] [Azure] |
+| 🪄 **PowerShell Basics** | Core command-line and scripting fundamentals | [PowerShell-Basics.md](Student%20Resources/PowerShell/PowerShell-Basics.md) | [PowerShell] [Beginner] |
+| ⚙️ **Advanced PowerShell** | Scripting automation and Azure integration | [Advanced PowerShell.md](Student%20Resources/PowerShell/Advanced%20PowerShell.md) | [PowerShell] [Advanced] [Azure] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -144,9 +170,9 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Level | Description | File | Tags |
 |-------|-------------|------|------|
-| 📚 **Terraform Basics** | Getting started with Terraform, providers, and simple deployments | [Terraform Basics.md](Student%20Resources/Terraform%20Basics.md) | [Terraform] [IaC] [Beginner] |
-| 🚀 **Terraform Advanced** | Modules, workspaces, state management, testing, and security | [Terraform Advanced.md](Student%20Resources/Terraform%20Advanced.md) | [Terraform] [IaC] [Advanced] |
-| 📖 **Terraform Resources** | Comprehensive reference for providers, modules, and multi-cloud examples | [Terraform-Resources.md](Student%20Resources/Terraform-Resources.md) | [Terraform] [IaC] [Reference] |
+| 📚 **Terraform Basics** | Getting started with Terraform, providers, and simple deployments | [Terraform Basics.md](Student%20Resources/Terraform/Terraform%20Basics.md) | [Terraform] [IaC] [Beginner] |
+| 🚀 **Terraform Advanced** | Modules, workspaces, state management, testing, and security | [Terraform Advanced.md](Student%20Resources/Terraform/Terraform%20Advanced.md) | [Terraform] [IaC] [Advanced] |
+| 📖 **Terraform Resources** | Comprehensive reference for providers, modules, and multi-cloud examples | [Terraform-Resources.md](Student%20Resources/Terraform/Terraform-Resources.md) | [Terraform] [IaC] [Reference] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -158,7 +184,7 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Topic | Description | File | Tags |
 |-------|-------------|------|------|
-| 🚀 **Azure DevOps + Terraform** | Complete guide to setting up Azure DevOps pipelines for Terraform deployments | [DevOps-Terraform-Pipelines.md](Student%20Resources/DevOps-Terraform-Pipelines.md) | [DevOps] [Terraform] [CI/CD] [Azure] |
+| 🚀 **Azure DevOps + Terraform** | Complete guide to setting up Azure DevOps pipelines for Terraform deployments | [DevOps-Terraform-Pipelines.md](Student%20Resources/DevOps/DevOps-Terraform-Pipelines.md) | [DevOps] [Terraform] [CI/CD] [Azure] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -170,9 +196,9 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Topic | Description | File | Tags |
 |-------|-------------|------|------|
-| **Security Fundamentals** | Microsoft Security Fundamentals exam (SC-900) | [sc900.md](Student%20Resources/sc900.md) | [Security] [Fundamental] |
-| **Exam Tips & Strategies** | General exam preparation strategies and best practices | [Exam Tips.md](Student%20Resources/Exam%20Tips.md) | [Exams] [Study] |
-| **Automation & Scripting** | Automation concepts, scripting best practices, and implementations | [automation.md](Student%20Resources/automation.md) | [Automation] [Scripting] |
+| **Security Fundamentals** | Microsoft Security Fundamentals exam (SC-900) | [sc900.md](Student%20Resources/Certifications/Security/sc900.md) | [Security] [Fundamental] |
+| **Exam Tips & Strategies** | General exam preparation strategies and best practices | [Exam Tips.md](Student%20Resources/Fundamentals/Exam%20Tips.md) | [Exams] [Study] |
+| **Automation & Scripting** | Automation concepts, scripting best practices, and implementations | [automation.md](Student%20Resources/Automation/automation.md) | [Automation] [Scripting] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -185,28 +211,28 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Topic | Description | File | Tags |
 |-------|-------------|------|------|
-| **Guide to Using AI** | Full guide to using AI effectively | [AI User Guide](Student%20Resources/guide-to-ai.md) | [AI] [Beginner] |
-| **AI Cheat Sheet** | Quick reference for AI workflow | [AI Cheat Sheet](Student%20Resources/ai-cheat-sheet.md) | [AI] [Reference] |
-| **Prompt Templates** | Reusable templates for common tasks (writing, coding, architecture, troubleshooting) | [Prompt Templates](Student%20Resources/ai-prompt-templates.md) | [AI] [Templates] |
-| **AI Prompt Patterns** | Instructional patterns for structured prompts (role prompting, chain-of-thought, multi-stage prompts) | [Prompt Patterns](Student%20Resources/ai-prompt-patterns.md) | [AI] [Patterns] |
-| **AI Troubleshooting Guide** | How to fix bad AI answers and recover from hallucinations | [AI Troubleshooting Guide](Student%20Resources/ai-troubleshooting.md) | [AI] [Troubleshooting] |
-| **AI Ethics & Safety** | Guidelines for safe, compliant, ethical AI usage | [AI Ethics](Student%20Resources/ai-ethics.md) | [AI] [Ethics] |
-| **AI for Cloud Engineering** | Best practices for using AI in DevOps, Terraform, Azure, pipelines | [Cloud Engineering + AI](Student%20Resources/ai-cloud-engineering.md) | [AI] [Cloud] [DevOps] |
-| **AI for Writing** | Story, editing, outlining, and worldbuilding prompts | [AI Writing Guide](Student%20Resources/ai-writing.md) | [AI] [Writing] |
-| **AI for Learning** | Study techniques, exam prep prompts, and note-taking workflows | [AI Learning Guide](Student%20Resources/ai-learning.md) | [AI] [Learning] |
-| **AI Tools List** | Recommended AI tools (code, writing, diagrams, PDFs, study tools) | [AI Tools](Student%20Resources/ai-tools.md) | [AI] [Tools] |
-| **AI Privacy Guide** | How to protect personal, corporate, and customer data when using AI | [AI Privacy](Student%20Resources/ai-privacy.md) | [AI] [Privacy] |
-| **AI Sandbox Exercises** | Practice prompts to build AI skills step-by-step | [AI Exercises](Student%20Resources/ai-exercises.md) | [AI] [Practice] |
+| **Guide to Using AI** | Full guide to using AI effectively | [AI User Guide](Student%20Resources/AI/guide-to-ai.md) | [AI] [Beginner] |
+| **AI Cheat Sheet** | Quick reference for AI workflow | [AI Cheat Sheet](Student%20Resources/AI/ai-cheat-sheet.md) | [AI] [Reference] |
+| **Prompt Templates** | Reusable templates for common tasks (writing, coding, architecture, troubleshooting) | [Prompt Templates](Student%20Resources/AI/ai-prompt-templates.md) | [AI] [Templates] |
+| **AI Prompt Patterns** | Instructional patterns for structured prompts (role prompting, chain-of-thought, multi-stage prompts) | [Prompt Patterns](Student%20Resources/AI/ai-prompt-patterns.md) | [AI] [Patterns] |
+| **AI Troubleshooting Guide** | How to fix bad AI answers and recover from hallucinations | [AI Troubleshooting Guide](Student%20Resources/AI/ai-troubleshooting.md) | [AI] [Troubleshooting] |
+| **AI Ethics & Safety** | Guidelines for safe, compliant, ethical AI usage | [AI Ethics](Student%20Resources/AI/ai-ethics.md) | [AI] [Ethics] |
+| **AI for Cloud Engineering** | Best practices for using AI in DevOps, Terraform, Azure, pipelines | [Cloud Engineering + AI](Student%20Resources/AI/ai-cloud-engineering.md) | [AI] [Cloud] [DevOps] |
+| **AI for Writing** | Story, editing, outlining, and worldbuilding prompts | [AI Writing Guide](Student%20Resources/AI/ai-writing.md) | [AI] [Writing] |
+| **AI for Learning** | Study techniques, exam prep prompts, and note-taking workflows | [AI Learning Guide](Student%20Resources/AI/ai-learning.md) | [AI] [Learning] |
+| **AI Tools List** | Recommended AI tools (code, writing, diagrams, PDFs, study tools) | [AI Tools](Student%20Resources/AI/ai-tools.md) | [AI] [Tools] |
+| **AI Privacy Guide** | How to protect personal, corporate, and customer data when using AI | [AI Privacy](Student%20Resources/AI/ai-privacy.md) | [AI] [Privacy] |
+| **AI Sandbox Exercises** | Practice prompts to build AI skills step-by-step | [AI Exercises](Student%20Resources/AI/ai-exercises.md) | [AI] [Practice] |
 
 #### AI Resources by Use Case
 
 | Use Case | Resource |
 |----------|----------|
-| For Learning | [AI Learning Guide](Student%20Resources/ai-learning.md) |
-| For Cloud Engineering | [Cloud Engineering + AI](Student%20Resources/ai-cloud-engineering.md) |
-| For Writing | [AI Writing Guide](Student%20Resources/ai-writing.md) |
-| For Troubleshooting | [AI Troubleshooting Guide](Student%20Resources/ai-troubleshooting.md) |
-| For Templates | [Prompt Templates](Student%20Resources/ai-prompt-templates.md) |
+| For Learning | [AI Learning Guide](Student%20Resources/AI/ai-learning.md) |
+| For Cloud Engineering | [Cloud Engineering + AI](Student%20Resources/AI/ai-cloud-engineering.md) |
+| For Writing | [AI Writing Guide](Student%20Resources/AI/ai-writing.md) |
+| For Troubleshooting | [AI Troubleshooting Guide](Student%20Resources/AI/ai-troubleshooting.md) |
+| For Templates | [Prompt Templates](Student%20Resources/AI/ai-prompt-templates.md) |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
