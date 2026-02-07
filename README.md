@@ -25,6 +25,7 @@ This repository is designed for **students, developers, and engineers** preparin
       - [Practice Tests \& Hands-On Labs](#practice-tests--hands-on-labs)
     - [Google Cloud Certifications](#google-cloud-certifications)
     - [Microsoft 365 Certifications](#microsoft-365-certifications)
+      - [Microsoft 365 Practice Tests](#microsoft-365-practice-tests)
     - [Security \& Compliance Certifications](#security--compliance-certifications)
     - [New to IT](#new-to-it)
     - [Admin Tools](#admin-tools)
@@ -122,6 +123,27 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | **MS-101** | Microsoft 365 Mobility and Security | [ms101.md](Student%20Resources/Certifications/Microsoft-365/ms101.md) | [Microsoft 365] [Security] [Associate] |
 | **MS-102** | Microsoft 365 Administrator | [ms102.md](Student%20Resources/Certifications/Microsoft-365/ms102.md) | [Microsoft 365] [Admin] [Associate] |
 | **MS-702** | Microsoft 365 Teams Administrator | [ms702.md](Student%20Resources/Certifications/Microsoft-365/ms702.md) | [Microsoft 365] [Teams] [Associate] |
+| **MD-102** | Microsoft 365 Endpoint Administrator | [md102.md](Student%20Resources/Certifications/Microsoft-365/md102.md) | [Microsoft 365] [Endpoint] [Associate] |
+| **MS-203** | Microsoft 365 Messaging | [ms203.md](Student%20Resources/Certifications/Microsoft-365/ms203.md) | [Microsoft 365] [Messaging] [Associate] |
+| **MS-220** | Microsoft 365 Endpoint Security | [ms220.md](Student%20Resources/Certifications/Microsoft-365/ms220.md) | [Microsoft 365] [Security] [Associate] |
+| **MS-721** | Collaboration Communications Systems Engineer | [ms721.md](Student%20Resources/Certifications/Microsoft-365/ms721.md) | [Microsoft 365] [Voice] [Associate] |
+| **MS-740** | Microsoft 365 Support Engineer | [ms740.md](Student%20Resources/Certifications/Microsoft-365/ms740.md) | [Microsoft 365] [Support] [Associate] |
+| **MS-700** | Microsoft Teams (Legacy) | [ms700.md](Student%20Resources/Certifications/Microsoft-365/ms700.md) | [Microsoft 365] [Teams] [Legacy] |
+
+#### Microsoft 365 Practice Tests
+
+| Exam Code | Practice Test | Tags |
+|-----------|---------------|------|
+| **MS-900** | [MS-900 Practice Test](practice%20tests/ms900-practice-test.md) | [Practice] [Fundamentals] |
+| **MS-101** | [MS-101 Practice Test](practice%20tests/ms101-practice-test.md) | [Practice] [Security] |
+| **MS-102** | [MS-102 Practice Test](practice%20tests/ms102-practice-test.md) | [Practice] [Admin] |
+| **MS-702** | [MS-702 Practice Test](practice%20tests/ms702-practice-test.md) | [Practice] [Teams] |
+| **MD-102** | [MD-102 Practice Test](practice%20tests/md102-practice-test.md) | [Practice] [Endpoint] |
+| **MS-203** | [MS-203 Practice Test](practice%20tests/ms203-practice-test.md) | [Practice] [Messaging] |
+| **MS-220** | [MS-220 Practice Test](practice%20tests/ms220-practice-test.md) | [Practice] [Security] |
+| **MS-721** | [MS-721 Practice Test](practice%20tests/ms721-practice-test.md) | [Practice] [Voice] |
+| **MS-740** | [MS-740 Practice Test](practice%20tests/ms740-practice-test.md) | [Practice] [Support] |
+| **MS-700** | [MS-700 Practice Test](practice%20tests/ms700-practice-test.md) | [Practice] [Teams] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 

@@ -123,6 +123,161 @@ Welcome to the Microsoft 365 certification guides. This directory contains compr
 
 ---
 
+### MD-102: Microsoft 365 Endpoint Administrator
+
+**Purpose**: Validate skills for deploying, securing, and managing endpoints with Intune.
+
+| Detail | Information |
+|--------|-------------|
+| **Exam Code** | MD-102 |
+| **Duration** | 100-120 minutes |
+| **Passing Score** | 70% (700/1000) |
+| **Target Audience** | Endpoint admins, device managers |
+| **Prerequisites** | MS-900 recommended |
+| **File** | [md102.md](md102.md) |
+
+**Topics Covered**:
+- Windows deployment and Autopilot
+- Device compliance and conditional access
+- App management and MAM
+- Endpoint security and monitoring
+
+[📖 Study MD-102](md102.md)
+
+---
+
+### MS-203: Microsoft 365 Messaging
+
+**Purpose**: Validate Exchange Online and messaging security administration skills.
+
+| Detail | Information |
+|--------|-------------|
+| **Exam Code** | MS-203 |
+| **Duration** | 100-120 minutes |
+| **Passing Score** | 70% (700/1000) |
+| **Target Audience** | Messaging admins, Exchange specialists |
+| **Prerequisites** | MS-900 recommended |
+| **File** | [ms203.md](ms203.md) |
+
+**Topics Covered**:
+- Mail flow and transport rules
+- Exchange security and protection
+- Recipient and mailbox management
+- Compliance and retention
+
+[📖 Study MS-203](ms203.md)
+
+---
+
+### MS-220: Microsoft 365 Endpoint Security
+
+**Purpose**: Validate endpoint security and Defender management skills.
+
+| Detail | Information |
+|--------|-------------|
+| **Exam Code** | MS-220 |
+| **Duration** | 100-120 minutes |
+| **Passing Score** | 70% (700/1000) |
+| **Target Audience** | Security admins, endpoint security engineers |
+| **Prerequisites** | MS-900 recommended |
+| **File** | [ms220.md](ms220.md) |
+
+**Topics Covered**:
+- Defender for Endpoint
+- ASR rules and baselines
+- Incident response and analytics
+- Threat protection integration
+
+[📖 Study MS-220](ms220.md)
+
+---
+
+### MS-721: Collaboration Communications Systems Engineer
+
+**Purpose**: Validate Teams voice, meetings, and conferencing skills.
+
+| Detail | Information |
+|--------|-------------|
+| **Exam Code** | MS-721 |
+| **Duration** | 100-120 minutes |
+| **Passing Score** | 70% (700/1000) |
+| **Target Audience** | Teams voice admins, UC engineers |
+| **Prerequisites** | MS-900 recommended |
+| **File** | [ms721.md](ms721.md) |
+
+**Topics Covered**:
+- Teams Phone and PSTN
+- Call routing and CQD
+- Meeting policies
+- Voice governance
+
+[📖 Study MS-721](ms721.md)
+
+---
+
+### MS-740: Microsoft 365 Support Engineer
+
+**Purpose**: Validate support and troubleshooting skills across Microsoft 365.
+
+| Detail | Information |
+|--------|-------------|
+| **Exam Code** | MS-740 |
+| **Duration** | 100-120 minutes |
+| **Passing Score** | 70% (700/1000) |
+| **Target Audience** | Support engineers, IT operations |
+| **Prerequisites** | MS-900 recommended |
+| **File** | [ms740.md](ms740.md) |
+
+**Topics Covered**:
+- Service health and diagnostics
+- Identity and access troubleshooting
+- Collaboration issues
+- Incident response
+
+[📖 Study MS-740](ms740.md)
+
+---
+
+### MS-700: Microsoft Teams (Legacy)
+
+**Purpose**: Validate Teams administration skills for legacy exam objectives.
+
+| Detail | Information |
+|--------|-------------|
+| **Exam Code** | MS-700 |
+| **Duration** | 100-120 minutes |
+| **Passing Score** | 70% (700/1000) |
+| **Target Audience** | Teams admins, collaboration specialists |
+| **Prerequisites** | MS-900 recommended |
+| **File** | [ms700.md](ms700.md) |
+
+**Topics Covered**:
+- Teams governance and policies
+- Meetings and voice
+- Monitoring and reporting
+- Migration and upgrade modes
+
+[📖 Study MS-700](ms700.md)
+
+---
+
+## 🧪 Practice Tests
+
+| Exam | Practice Test | Notes |
+|------|---------------|-------|
+| **MS-900** | [ms900-practice-test.md](../../../practice%20tests/ms900-practice-test.md) | 50 questions, fundamentals coverage |
+| **MS-101** | [ms101-practice-test.md](../../../practice%20tests/ms101-practice-test.md) | 50 questions, security & mobility |
+| **MS-102** | [ms102-practice-test.md](../../../practice%20tests/ms102-practice-test.md) | 50 questions, admin tasks |
+| **MS-702** | [ms702-practice-test.md](../../../practice%20tests/ms702-practice-test.md) | 50 questions, Teams governance |
+| **MD-102** | [md102-practice-test.md](../../../practice%20tests/md102-practice-test.md) | 30 questions, endpoint admin |
+| **MS-203** | [ms203-practice-test.md](../../../practice%20tests/ms203-practice-test.md) | 30 questions, messaging |
+| **MS-220** | [ms220-practice-test.md](../../../practice%20tests/ms220-practice-test.md) | 30 questions, endpoint security |
+| **MS-721** | [ms721-practice-test.md](../../../practice%20tests/ms721-practice-test.md) | 30 questions, voice & meetings |
+| **MS-740** | [ms740-practice-test.md](../../../practice%20tests/ms740-practice-test.md) | 30 questions, support |
+| **MS-700** | [ms700-practice-test.md](../../../practice%20tests/ms700-practice-test.md) | 30 questions, Teams legacy |
+
+---
+
 ## 📚 Learning Resources
 <a id="learning-resources"></a>
 
