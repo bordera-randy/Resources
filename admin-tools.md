@@ -70,7 +70,8 @@ It groups commonly used **administrative, diagnostic, security, and operations t
     - [Git](#git)
     - [Ansible](#ansible)
     - [Nagios](#nagios)
-  - [🌟 Third‑Party / SaaS Tools](#-thirdparty--saas-tools)
+  - [🌟 Third‑Party / SaaS Tools](#third-party--saas-tools)
+    - [Qvert Utilities](#qvert-utilities)
     - [MXToolbox](#mxtoolbox)
     - [Cloudflare Tools](#cloudflare-tools)
     - [Postman](#postman)
@@ -1344,6 +1345,32 @@ Infrastructure monitoring and alerting.
 
 ## 🌟 Third‑Party / SaaS Tools
 <a id="third-party--saas-tools"></a>
+
+### Qvert Utilities
+<a id="qvert-utilities"></a>
+
+**Links:**
+- [Qvert Utilities](https://qvert.net/)
+
+**Purpose:**  
+Collection of lightweight web tools for QR codes, encoders/decoders, and data formatting.
+
+**Use cases:**
+- ✅ Generate QR codes for WiFi, links, reviews, and calls
+- ✅ Convert CSV to JSON, prettify/minify JSON
+- ✅ Encode/decode URLs, Base64, Base32, Base62
+- ✅ Extract URL parameters and test regex patterns
+- ✅ Create UUIDs, hashes, and timestamps for testing
+
+**Highlights:**
+- QR Code Generator, WiFi QR Generator, Batch Generator
+- JSON Prettifier/Minifier, JSON Schema Validator
+- URL Encoder/Decoder, URL Parameter Extractor
+- CSV to JSON Converter, Markdown to HTML
+- Base64 Image Encode/Decode, SHA‑256 Hasher
+- UUID Generator, Regex Tester, Timestamp Converter
+
+---
 
 ### MXToolbox
 
