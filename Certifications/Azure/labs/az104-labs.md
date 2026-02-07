@@ -1246,4 +1246,4 @@ These ten labs cover comprehensive Azure Administrator skills tested on the AZ-1
 
 **Last Updated:** February 1, 2026
 
-**Related:** [← Back to Student Resources](/README.md) | [AZ-104 Practice Test](../az104-practice-test.md) | [All Labs](../labs/)
+**Related:** [← Back to Resources](../../../../README.md) | [AZ-104 Practice Test](../practice-tests/az104-practice-test.md) | [All Azure Labs](./)

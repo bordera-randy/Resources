@@ -604,4 +604,4 @@ Count your correct answers:
 
 **Last Updated:** February 1, 2026
 
-**Related:** [← Back to Student Resources](/README.md) | [AZ-700 Labs](../labs/) | [Other Practice Tests](../)
+**Related:** [← Back to Resources](../../../../README.md) | [AZ-700 Labs](../labs/) | [All Azure Practice Tests](./)

@@ -25,7 +25,7 @@ This repository is designed for **students, developers, and engineers** preparin
       - [Practice Tests \& Hands-On Labs](#practice-tests--hands-on-labs)
     - [Google Cloud Certifications](#google-cloud-certifications)
     - [Microsoft 365 Certifications](#microsoft-365-certifications)
-      - [Microsoft 365 Practice Tests](#microsoft-365-practice-tests)
+      - [Microsoft 365 Practice Tests \& Hands-On Labs](#microsoft-365-practice-tests--hands-on-labs)
     - [Security \& Compliance Certifications](#security--compliance-certifications)
     - [New to IT](#new-to-it)
     - [Admin Tools](#admin-tools)
@@ -56,6 +56,8 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Topic | Description | Tags |
 |-------|-------------|------|
+| Topic | Description | Tags |
+|-------|-------------|------|
 | [Microsoft Resources](Student%20Resources/Cloud/Microsoft.md) | Official Microsoft learning paths, tools, and docs | [Azure] [Beginner] |
 | [AWS Resources](Student%20Resources/Cloud/AWS.md) | AWS certification and hands-on practice resources | [AWS] [Beginner] |
 | [Google Cloud Resources](Student%20Resources/Cloud/google-cloud.md) | Google Cloud Platform documentation, tools, and learning paths | [GCP] [Beginner] |
@@ -77,20 +79,21 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Exam Code | Certification Title | File | Tags |
 |-----------|---------------------|------|------|
-| **AZ-900** | Azure Fundamentals | [az900.md](Student%20Resources/Certifications/Azure/az900.md) | [Azure] [Fundamental] |
-| **AZ-104** | Azure Administrator Associate | [az104.md](Student%20Resources/Certifications/Azure/az104.md) | [Azure] [Admin] |
-| **AZ-305** | Azure Solutions Architect Expert | [az305.md](Student%20Resources/Certifications/Azure/az305.md) | [Azure] [Architect] |
-| **AZ-500** | Azure Security Engineer Associate | [az500.md](Student%20Resources/Certifications/Azure/az500.md) | [Azure] [Security] |
-| **AZ-700** | Azure Network Engineer Associate | [az700.md](Student%20Resources/Certifications/Azure/az700.md) | [Azure] [Networking] |
-| **AZ-400** | DevOps Engineer Expert | [az400.md](Student%20Resources/Certifications/Azure/az400.md) | [Azure] [DevOps] |
+| **AZ-900** | Azure Fundamentals | [az900.md](Certifications/Azure/az900.md) | [Azure] [Fundamental] |
+| **AZ-104** | Azure Administrator Associate | [az104.md](Certifications/Azure/az104.md) | [Azure] [Admin] |
+| **AZ-305** | Azure Solutions Architect Expert | [az305.md](Certifications/Azure/az305.md) | [Azure] [Architect] |
+| **AZ-500** | Azure Security Engineer Associate | [az500.md](Certifications/Azure/az500.md) | [Azure] [Security] |
+| **AZ-700** | Azure Network Engineer Associate | [az700.md](Certifications/Azure/az700.md) | [Azure] [Networking] |
+| **AZ-400** | DevOps Engineer Expert | [az400.md](Certifications/Azure/az400.md) | [Azure] [DevOps] |
 
 #### Practice Tests & Hands-On Labs
 
 | Exam Code | Practice Test | Hands-On Labs | Tags |
 |-----------|--------------|---------------|------|
-| **AZ-900** | [50-Question Practice Test](practice%20tests/az900-practice-test.md) | [5 Hands-On Labs](labs/az900-labs.md) | [Practice] [Labs] |
-| **AZ-104** | [50-Question Practice Test](practice%20tests/az104-practice-test.md) | [5 Hands-On Labs](labs/az104-labs.md) | [Practice] [Labs] |
-| **AZ-700** | [50-Question Practice Test](practice%20tests/az700-practice-test.md) | [5 Hands-On Labs](labs/az700-labs.md) | [Practice] [Labs] |
+| **AZ-900** | [50-Question Practice Test](Certifications/Azure/practice-tests/az900-practice-test.md) | [Hands-On Labs](Certifications/Azure/labs/az900-labs.md) | [Practice] [Labs] |
+| **AZ-104** | [50-Question Practice Test](Certifications/Azure/practice-tests/az104-practice-test.md) | [Hands-On Labs](Certifications/Azure/labs/az104-labs.md) | [Practice] [Labs] |
+| **AZ-500** | [50-Question Practice Test](Certifications/Azure/practice-tests/az500-practice-test.md) | [Hands-On Labs](Certifications/Azure/labs/az500-labs.md) | [Practice] [Labs] |
+| **AZ-700** | [50-Question Practice Test](Certifications/Azure/practice-tests/az700-practice-test.md) | [Hands-On Labs](Certifications/Azure/labs/az700-labs.md) | [Practice] [Labs] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -103,10 +106,10 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Exam Code | Certification Title | File | Tags |
 |-----------|---------------------|------|------|
-| **Associate** | Associate Cloud Engineer | [google-Associate-Cloud-Engineer.md](Student%20Resources/Certifications/GCP/google-Associate-Cloud-Engineer.md) | [GCP] [Associate] |
-| **Professional** | Professional Cloud Architect | [google-Professional-Cloud-Architect.md](Student%20Resources/Certifications/GCP/google-Professional-Cloud-Architect.md) | [GCP] [Architect] |
-| **Professional** | Professional Cloud DevOps Engineer | [google-Professional-Cloud-DevOps-Engineer.md](Student%20Resources/Certifications/GCP/google-Professional-Cloud-DevOps-Engineer.md) | [GCP] [DevOps] |
-| **Professional** | Professional Data Engineer | [google-Professional-Data-Engineer.md](Student%20Resources/Certifications/GCP/google-Professional-Data-Engineer.md) | [GCP] [Data] |
+| **Associate** | Associate Cloud Engineer | [google-Associate-Cloud-Engineer.md](Certifications/GCP/google-Associate-Cloud-Engineer.md) | [GCP] [Associate] |
+| **Professional** | Professional Cloud Architect | [google-Professional-Cloud-Architect.md](Certifications/GCP/google-Professional-Cloud-Architect.md) | [GCP] [Architect] |
+| **Professional** | Professional Cloud DevOps Engineer | [google-Professional-Cloud-DevOps-Engineer.md](Certifications/GCP/google-Professional-Cloud-DevOps-Engineer.md) | [GCP] [DevOps] |
+| **Professional** | Professional Data Engineer | [google-Professional-Data-Engineer.md](Certifications/GCP/google-Professional-Data-Engineer.md) | [GCP] [Data] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
@@ -119,31 +122,31 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 
 | Exam Code | Certification Title | File | Tags |
 |-----------|---------------------|------|------|
-| **MS-900** | Microsoft 365 Fundamentals | [ms900.md](Student%20Resources/Certifications/Microsoft-365/ms900.md) | [Microsoft 365] [Fundamentals] |
-| **MS-101** | Microsoft 365 Mobility and Security | [ms101.md](Student%20Resources/Certifications/Microsoft-365/ms101.md) | [Microsoft 365] [Security] [Associate] |
-| **MS-102** | Microsoft 365 Administrator | [ms102.md](Student%20Resources/Certifications/Microsoft-365/ms102.md) | [Microsoft 365] [Admin] [Associate] |
-| **MS-702** | Microsoft 365 Teams Administrator | [ms702.md](Student%20Resources/Certifications/Microsoft-365/ms702.md) | [Microsoft 365] [Teams] [Associate] |
-| **MD-102** | Microsoft 365 Endpoint Administrator | [md102.md](Student%20Resources/Certifications/Microsoft-365/md102.md) | [Microsoft 365] [Endpoint] [Associate] |
-| **MS-203** | Microsoft 365 Messaging | [ms203.md](Student%20Resources/Certifications/Microsoft-365/ms203.md) | [Microsoft 365] [Messaging] [Associate] |
-| **MS-220** | Microsoft 365 Endpoint Security | [ms220.md](Student%20Resources/Certifications/Microsoft-365/ms220.md) | [Microsoft 365] [Security] [Associate] |
-| **MS-721** | Collaboration Communications Systems Engineer | [ms721.md](Student%20Resources/Certifications/Microsoft-365/ms721.md) | [Microsoft 365] [Voice] [Associate] |
-| **MS-740** | Microsoft 365 Support Engineer | [ms740.md](Student%20Resources/Certifications/Microsoft-365/ms740.md) | [Microsoft 365] [Support] [Associate] |
-| **MS-700** | Microsoft Teams (Legacy) | [ms700.md](Student%20Resources/Certifications/Microsoft-365/ms700.md) | [Microsoft 365] [Teams] [Legacy] |
+| **MS-900** | Microsoft 365 Fundamentals | [ms900.md](Certifications/Microsoft-365/ms900.md) | [Microsoft 365] [Fundamentals] |
+| **MS-101** | Microsoft 365 Mobility and Security | [ms101.md](Certifications/Microsoft-365/ms101.md) | [Microsoft 365] [Security] [Associate] |
+| **MS-102** | Microsoft 365 Administrator | [ms102.md](Certifications/Microsoft-365/ms102.md) | [Microsoft 365] [Admin] [Associate] |
+| **MS-702** | Microsoft 365 Teams Administrator | [ms702.md](Certifications/Microsoft-365/ms702.md) | [Microsoft 365] [Teams] [Associate] |
+| **MD-102** | Microsoft 365 Endpoint Administrator | [md102.md](Certifications/Microsoft-365/md102.md) | [Microsoft 365] [Endpoint] [Associate] |
+| **MS-203** | Microsoft 365 Messaging | [ms203.md](Certifications/Microsoft-365/ms203.md) | [Microsoft 365] [Messaging] [Associate] |
+| **MS-220** | Microsoft 365 Endpoint Security | [ms220.md](Certifications/Microsoft-365/ms220.md) | [Microsoft 365] [Security] [Associate] |
+| **MS-721** | Collaboration Communications Systems Engineer | [ms721.md](Certifications/Microsoft-365/ms721.md) | [Microsoft 365] [Voice] [Associate] |
+| **MS-740** | Microsoft 365 Support Engineer | [ms740.md](Certifications/Microsoft-365/ms740.md) | [Microsoft 365] [Support] [Associate] |
+| **MS-700** | Microsoft Teams (Legacy) | [ms700.md](Certifications/Microsoft-365/ms700.md) | [Microsoft 365] [Teams] [Legacy] |
 
-#### Microsoft 365 Practice Tests
+#### Microsoft 365 Practice Tests & Hands-On Labs
 
-| Exam Code | Practice Test | Tags |
-|-----------|---------------|------|
-| **MS-900** | [MS-900 Practice Test](practice%20tests/ms900-practice-test.md) | [Practice] [Fundamentals] |
-| **MS-101** | [MS-101 Practice Test](practice%20tests/ms101-practice-test.md) | [Practice] [Security] |
-| **MS-102** | [MS-102 Practice Test](practice%20tests/ms102-practice-test.md) | [Practice] [Admin] |
-| **MS-702** | [MS-702 Practice Test](practice%20tests/ms702-practice-test.md) | [Practice] [Teams] |
-| **MD-102** | [MD-102 Practice Test](practice%20tests/md102-practice-test.md) | [Practice] [Endpoint] |
-| **MS-203** | [MS-203 Practice Test](practice%20tests/ms203-practice-test.md) | [Practice] [Messaging] |
-| **MS-220** | [MS-220 Practice Test](practice%20tests/ms220-practice-test.md) | [Practice] [Security] |
-| **MS-721** | [MS-721 Practice Test](practice%20tests/ms721-practice-test.md) | [Practice] [Voice] |
-| **MS-740** | [MS-740 Practice Test](practice%20tests/ms740-practice-test.md) | [Practice] [Support] |
-| **MS-700** | [MS-700 Practice Test](practice%20tests/ms700-practice-test.md) | [Practice] [Teams] |
+| Exam Code | Practice Test | Hands-On Labs | Tags |
+|-----------|---------------|---------------|------|
+| **MS-900** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms900-practice-test.md) | [Hands-On Labs](Certifications/Microsoft-365/labs/ms900-labs.md) | [Practice] [Labs] |
+| **MS-101** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms101-practice-test.md) | — | [Practice] |
+| **MS-102** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms102-practice-test.md) | — | [Practice] |
+| **MS-702** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms702-practice-test.md) | — | [Practice] |
+| **MD-102** | [Practice Test](Certifications/Microsoft-365/practice-tests/md102-practice-test.md) | [Hands-On Labs](Certifications/Microsoft-365/labs/md102-labs.md) | [Practice] [Labs] |
+| **MS-203** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms203-practice-test.md) | [Hands-On Labs](Certifications/Microsoft-365/labs/ms203-labs.md) | [Practice] [Labs] |
+| **MS-220** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms220-practice-test.md) | [Hands-On Labs](Certifications/Microsoft-365/labs/ms220-labs.md) | [Practice] [Labs] |
+| **MS-721** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms721-practice-test.md) | [Hands-On Labs](Certifications/Microsoft-365/labs/ms721-labs.md) | [Practice] [Labs] |
+| **MS-740** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms740-practice-test.md) | [Hands-On Labs](Certifications/Microsoft-365/labs/ms740-labs.md) | [Practice] [Labs] |
+| **MS-700** | [Practice Test](Certifications/Microsoft-365/practice-tests/ms700-practice-test.md) | [Hands-On Labs](Certifications/Microsoft-365/labs/ms700-labs.md) | [Practice] [Labs] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 

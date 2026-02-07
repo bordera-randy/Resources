@@ -7,7 +7,7 @@ updated: "2026-02-06"
 
 # 📚 Microsoft 365 Certification Study Guides
 
-<p align="right"><a href="../../readme.md">Back to Student Resources</a></p>
+<p align="right"><a href="../README.md">Back to Certifications</a> | <a href="../../README.md">Back to Resources</a></p>
 
 ---
 
@@ -21,6 +21,12 @@ Welcome to the Microsoft 365 certification guides. This directory contains compr
 	<a href="#learning-resources">Learning Resources</a> •
 	<a href="#exam-tips">Exam Tips</a>
 </p>
+
+---
+
+## 🧪 Hands-On Labs
+
+Looking for practical experience? Check out the [Microsoft 365 Certification Labs](./labs/) folder for hands-on exercises covering all major M365 exams.
 
 ---
 
@@ -265,16 +271,16 @@ Welcome to the Microsoft 365 certification guides. This directory contains compr
 
 | Exam | Practice Test | Notes |
 |------|---------------|-------|
-| **MS-900** | [ms900-practice-test.md](../../../practice%20tests/ms900-practice-test.md) | 50 questions, fundamentals coverage |
-| **MS-101** | [ms101-practice-test.md](../../../practice%20tests/ms101-practice-test.md) | 50 questions, security & mobility |
-| **MS-102** | [ms102-practice-test.md](../../../practice%20tests/ms102-practice-test.md) | 50 questions, admin tasks |
-| **MS-702** | [ms702-practice-test.md](../../../practice%20tests/ms702-practice-test.md) | 50 questions, Teams governance |
-| **MD-102** | [md102-practice-test.md](../../../practice%20tests/md102-practice-test.md) | 30 questions, endpoint admin |
-| **MS-203** | [ms203-practice-test.md](../../../practice%20tests/ms203-practice-test.md) | 30 questions, messaging |
-| **MS-220** | [ms220-practice-test.md](../../../practice%20tests/ms220-practice-test.md) | 30 questions, endpoint security |
-| **MS-721** | [ms721-practice-test.md](../../../practice%20tests/ms721-practice-test.md) | 30 questions, voice & meetings |
-| **MS-740** | [ms740-practice-test.md](../../../practice%20tests/ms740-practice-test.md) | 30 questions, support |
-| **MS-700** | [ms700-practice-test.md](../../../practice%20tests/ms700-practice-test.md) | 30 questions, Teams legacy |
+| **MS-900** | [ms900-practice-test.md](./practice-tests/ms900-practice-test.md) | 50 questions, fundamentals coverage |
+| **MS-101** | [ms101-practice-test.md](./practice-tests/ms101-practice-test.md) | 50 questions, security & mobility |
+| **MS-102** | [ms102-practice-test.md](./practice-tests/ms102-practice-test.md) | 50 questions, admin tasks |
+| **MS-702** | [ms702-practice-test.md](./practice-tests/ms702-practice-test.md) | 50 questions, Teams governance |
+| **MD-102** | [md102-practice-test.md](./practice-tests/md102-practice-test.md) | 30 questions, endpoint admin |
+| **MS-203** | [ms203-practice-test.md](./practice-tests/ms203-practice-test.md) | 30 questions, messaging |
+| **MS-220** | [ms220-practice-test.md](./practice-tests/ms220-practice-test.md) | 30 questions, endpoint security |
+| **MS-721** | [ms721-practice-test.md](./practice-tests/ms721-practice-test.md) | 30 questions, voice & meetings |
+| **MS-740** | [ms740-practice-test.md](./practice-tests/ms740-practice-test.md) | 30 questions, support |
+| **MS-700** | [ms700-practice-test.md](./practice-tests/ms700-practice-test.md) | 30 questions, Teams legacy |
 
 ---
 

@@ -1839,5 +1839,5 @@ These ten labs provide comprehensive coverage of Azure Network Engineer competen
 
 **Last Updated:** February 1, 2026
 
-**Related:** [← Back to Student Resources](/README.md) | [AZ-700 Practice Test](../az700-practice-test.md) | [All Labs](../labs/)
+**Related:** [← Back to Resources](../../../../README.md) | [AZ-700 Practice Test](../practice-tests/az700-practice-test.md) | [All Azure Labs](./)
 

@@ -2255,4 +2255,4 @@ These ten comprehensive labs cover all Azure Security Engineer skills tested on 
 
 **Last Updated:** February 1, 2026
 
-**Related:** [← Back to Student Resources](/README.md) | [AZ-500 Practice Test](../az500-practice-test.md) | [All Labs](../labs/)
+**Related:** [← Back to Resources](../../../../README.md) | [AZ-500 Practice Test](../practice-tests/az500-practice-test.md) | [All Azure Labs](./)
