@@ -24,6 +24,7 @@ This repository is designed for **students, developers, and engineers** preparin
     - [Microsoft Azure Certifications](#microsoft-azure-certifications)
       - [Practice Tests \& Hands-On Labs](#practice-tests--hands-on-labs)
     - [Google Cloud Certifications](#google-cloud-certifications)
+    - [Microsoft 365 Certifications](#microsoft-365-certifications)
     - [Security \& Compliance Certifications](#security--compliance-certifications)
     - [New to IT](#new-to-it)
     - [Admin Tools](#admin-tools)
@@ -105,6 +106,22 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | **Professional** | Professional Cloud Architect | [google-Professional-Cloud-Architect.md](Student%20Resources/Certifications/GCP/google-Professional-Cloud-Architect.md) | [GCP] [Architect] |
 | **Professional** | Professional Cloud DevOps Engineer | [google-Professional-Cloud-DevOps-Engineer.md](Student%20Resources/Certifications/GCP/google-Professional-Cloud-DevOps-Engineer.md) | [GCP] [DevOps] |
 | **Professional** | Professional Data Engineer | [google-Professional-Data-Engineer.md](Student%20Resources/Certifications/GCP/google-Professional-Data-Engineer.md) | [GCP] [Data] |
+
+<p align="right"><a href="#-overview">Back to Top</a></p>
+
+---
+
+
+### Microsoft 365 Certifications
+
+> **Summary:** Microsoft 365 certification study guides covering fundamentals, security, administration, and Teams management.
+
+| Exam Code | Certification Title | File | Tags |
+|-----------|---------------------|------|------|
+| **MS-900** | Microsoft 365 Fundamentals | [ms900.md](Student%20Resources/Certifications/Microsoft-365/ms900.md) | [Microsoft 365] [Fundamentals] |
+| **MS-101** | Microsoft 365 Mobility and Security | [ms101.md](Student%20Resources/Certifications/Microsoft-365/ms101.md) | [Microsoft 365] [Security] [Associate] |
+| **MS-102** | Microsoft 365 Administrator | [ms102.md](Student%20Resources/Certifications/Microsoft-365/ms102.md) | [Microsoft 365] [Admin] [Associate] |
+| **MS-702** | Microsoft 365 Teams Administrator | [ms702.md](Student%20Resources/Certifications/Microsoft-365/ms702.md) | [Microsoft 365] [Teams] [Associate] |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
