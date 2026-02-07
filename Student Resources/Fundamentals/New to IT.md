@@ -3,6 +3,7 @@ title: "New to IT: Beginner Resources"
 description: "A curated guide for newcomers to the IT industry. Includes learning platforms, hands-on labs, certifications, communities, and tools to help you start your career in technology."
 tags: ["IT", "Beginner", "Learning", "Career", "Cloud", "Networking", "DevOps"]
 updated: "2025-10-23"
+---
 
 # 💻 New to IT Resources 🚀
 
