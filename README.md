@@ -1,7 +1,7 @@
 
 # 🎓 Resources Repository
 
-<p align="right"><sub>Last updated: February 6, 2026</sub></p>
+<p align="right"><sub>Last updated: February 16, 2026</sub></p>
 
 Welcome to the **Resources Repository** — a curated collection of study materials, guides, and hands-on resources for cloud and IT professionals.
 This repository is designed for **students, developers, and engineers** preparing for certifications or expanding their technical expertise.
@@ -265,6 +265,9 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | **AI Tools List** | Recommended AI tools (code, writing, diagrams, PDFs, study tools) | [AI Tools](Student%20Resources/AI/ai-tools.md) | [AI] [Tools] |
 | **AI Privacy Guide** | How to protect personal, corporate, and customer data when using AI | [AI Privacy](Student%20Resources/AI/ai-privacy.md) | [AI] [Privacy] |
 | **AI Sandbox Exercises** | Practice prompts to build AI skills step-by-step | [AI Exercises](Student%20Resources/AI/ai-exercises.md) | [AI] [Practice] |
+| **MCP Getting Started** | Beginner guide to Model Context Protocol — concepts, quick start, and first MCP server | [MCP Getting Started](Student%20Resources/AI/mcp-getting-started.md) | [AI] [MCP] [Beginner] |
+| **MCP Advanced** | Production-grade MCP patterns — authentication, middleware, distributed systems, and security | [MCP Advanced](Student%20Resources/AI/mcp-advanced.md) | [AI] [MCP] [Advanced] |
+| **MCP Expert** | Expert-level MCP — protocol internals, custom transports, ML integration, and enterprise architecture | [MCP Expert](Student%20Resources/AI/mcp-expert.md) | [AI] [MCP] [Expert] |
 
 #### AI Resources by Use Case
 
@@ -275,6 +278,7 @@ Each resource is structured in Markdown for easy navigation and consistent reada
 | For Writing | [AI Writing Guide](Student%20Resources/AI/ai-writing.md) |
 | For Troubleshooting | [AI Troubleshooting Guide](Student%20Resources/AI/ai-troubleshooting.md) |
 | For Templates | [Prompt Templates](Student%20Resources/AI/ai-prompt-templates.md) |
+| For MCP (Model Context Protocol) | [MCP Getting Started](Student%20Resources/AI/mcp-getting-started.md) |
 
 <p align="right"><a href="#-overview">Back to Top</a></p>
 
